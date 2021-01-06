@@ -1,10 +1,35 @@
-.children{
-flex: 0 0 150px;
-    text-decoration: none;
-}
+
 .parent{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     flex-flow: row wrap;
+    font-family: "Courier New";
+    font-size: 1.2rem;
+    padding: 5rem;
+}
+.children{
+    flex: 0 0 auto;
+    text-decoration: none;
+    color: #1f4034;
+}
+
+.image{
+    width: 10rem;
+    height: auto;
+}
+
+.children:hover {
+    color: #f5751d;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    text-decoration: black;
+    border-bottom:1px solid #1f4034 ;
 }
