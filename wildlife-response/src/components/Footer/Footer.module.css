@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right:0;
+
+}
+.element{
+    font-family: "Courier New"
+}

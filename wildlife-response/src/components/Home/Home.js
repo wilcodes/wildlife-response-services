@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import image from "../../images/home-background.png";
 import Title from "./Title/Title";
 import Button from "./button/Button";
+import Footer from "../Footer/Footer";
 const Home =()=>{
     return(
         <>
@@ -11,6 +12,7 @@ const Home =()=>{
                 <Navbar />
                 <Title/>
                 <Button/>
+                <Footer/>
             </header>
                 </>
     )
