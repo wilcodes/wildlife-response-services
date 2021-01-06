@@ -1,0 +1,2 @@
+# wildlife-response-services
+Located in the upper Texas Gulf Coast area, WRS personnel have been involved in wildlife rehabilitation and oiled wildlife response for over twenty years, and possess both state and federal permits, including permits to rehabilitate endangered species. WRS has led the environmental unit in large-scale emergency responses, and consults with industry and private entities regarding site specific contingency planning.  Services We Provide
