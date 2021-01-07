@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Link} from "gatsby";
 import classes from "./Navbar.module.css"
 import logo from "../../../images/transparent-logo.png";
-
+import Sidebar from "../../sidebar/sidebar";
 const NavBar = () =>{
     const NavLink =(Link);
     const [windowWidth, setWindowWidth]= useState(window.innerWidth);
@@ -15,7 +15,7 @@ const NavBar = () =>{
         return ()=>{
             window.addEventListener("resize", handleResize);
         }
-    },[]);
+    },[window,  handleResize]);
 let conditionalNav= null;
     if (windowWidth>1024) {
         conditionalNav= <nav className={classes.parent} >
@@ -25,7 +25,7 @@ let conditionalNav= null;
            <NavLink to='/contact' className={classes.children}>Contact us</NavLink>
        </nav>
     }else {
-        conditionalNav = <div> gg </div>
+        conditionalNav = <Sidebar/>
     }
     return(
         <>
