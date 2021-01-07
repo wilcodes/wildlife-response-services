@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    font-family: "Courier Prime";
-    font-size: 1.2rem;
+    font-family: Lato;
+    font-size: 1.4rem;
     padding: 5rem;
 }
 .children{
@@ -32,4 +32,10 @@
     transition: all 1s ease;
     text-decoration: black;
     border-bottom:1px solid #1f4034 ;
+}
+
+@media (max-width:800px ) {
+    .parent{
+        display: none;
+    }
 }

@@ -6,7 +6,6 @@ const Footer= () =>{
         <>
 
             <footer className={classes.footer}>
-                <div className={classes.icons}>
                     <IoLogoFacebook className='icon-2' style={{
                         position:"relative",
                         top:"7px",
@@ -27,7 +26,6 @@ const Footer= () =>{
                         fontSize:"27px",
                         color:"#14281f"
                     }}/>
-                </div>
 
                 <h4 className={classes.element}>  Wildlife Response Services, LLC</h4>
                 <h4 className={classes.element}>  P.O.Box 842

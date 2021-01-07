@@ -1,6 +1,6 @@
 .Button{
     text-decoration: none;
-    font-family: "Courier Prime";
+    font-family: Lato;
     font-size: 25px;
     margin-left: 2em;
     color:#1f4034;
@@ -12,7 +12,7 @@
 }
 .Button2{
     text-decoration: none;
-    font-family: "Courier Prime";
+    font-family: Lato;
     font-size: 25px;
     margin-left: 2em;
     color:#1f4034;
