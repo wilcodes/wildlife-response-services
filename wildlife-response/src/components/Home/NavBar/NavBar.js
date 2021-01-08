@@ -15,9 +15,9 @@ const NavBar = () =>{
         return ()=>{
             window.addEventListener("resize", handleResize);
         }
-    },[window,  handleResize]);
+    },[handleResize]);
 let conditionalNav= null;
-    if (windowWidth>1024) {
+    if (windowWidth>1124) {
         conditionalNav= <nav className={classes.parent} >
            <NavLink to='/services' className={classes.children} >Services</NavLink>
            <NavLink to='/mission' className={classes.children}>Mission</NavLink>
@@ -31,10 +31,10 @@ let conditionalNav= null;
         <>
             <div className="container-fluid">
                 <div className="row">
-            <div className="col-md-6">
+            <div className="col-6">
                 <NavLink to='/' > <img src={logo} alt="wildlife-logo" className={classes.image}/> </NavLink>
             </div>
-                <div className="col-md-6">
+                <div className="col-6">
                     {conditionalNav}
                     </div>
                 </div>

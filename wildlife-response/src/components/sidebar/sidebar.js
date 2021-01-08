@@ -1,10 +1,7 @@
 import React, {useState} from "react";
 import {Link} from "gatsby";
 import classes from "./sidebar.module.css";
-
-const toggleClass=()=>{
-  let classes ="navIcon"
-};
+import {IoIosMenu, IoMdClose} from "react-icons/io";
 const Sidebar=()=>{
     let [toggleSidebar, setToggleSidebar]=useState(false);
     const NavLink=(Link);
@@ -12,6 +9,13 @@ const Sidebar=()=>{
       setToggleSidebar(!toggleSidebar);
     };
     let navigation=null
+    let icon = <IoIosMenu className='icon-2' style={{
+        position:"relative",
+        top:"7px",
+        fontSize:"60px",
+        color:"#14281f",
+        marginRight:"20px"
+    }}/>
     if(toggleSidebar===true){
         navigation= <nav className={classes.itemsSidebar} >
             <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
@@ -19,15 +23,23 @@ const Sidebar=()=>{
             <NavLink to='/about' className={classes.itemSidebar}>About</NavLink>
             <NavLink to='/contact' className={classes.itemSidebar}>Contact us</NavLink>
         </nav>
+        icon= <IoMdClose className='icon-2' style={{
+            position:"relative",
+            top:"7px",
+            fontSize:"60px",
+            color:"#14281f",
+            marginRight:"20px"
+        }}/>
+
     }
+
     return(
         <>
             <div className={classes.navIcon} onClick={onToggle}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            {navigation}
+                {icon}
+            </div >
+             {navigation}
+
             </>
     )
 };
