@@ -12,7 +12,7 @@ const Sidebar=()=>{
     let icon = <IoIosMenu className='icon-2' style={{
         position:"relative",
         top:"7px",
-        fontSize:"60px",
+        fontSize:"40px",
         color:"#14281f",
         marginRight:"20px"
     }}/>
@@ -26,7 +26,7 @@ const Sidebar=()=>{
         icon= <IoMdClose className='icon-2' style={{
             position:"relative",
             top:"7px",
-            fontSize:"60px",
+            fontSize:"40px",
             color:"#14281f",
             marginRight:"20px"
         }}/>
