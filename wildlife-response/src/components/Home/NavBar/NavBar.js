@@ -12,8 +12,10 @@ const NavBar = () =>{
 
     useEffect(()=>{
         window.addEventListener("resize", handleResize);
+        console.log("i am mounted")
         return ()=>{
             window.addEventListener("resize", handleResize);
+            console.log("i am unmounted")
         }
     },[handleResize]);
 let conditionalNav= null;

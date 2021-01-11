@@ -8,12 +8,13 @@
     position: absolute;
     z-index: 1;
     margin-left: 30%;
+
 }
 .item-sidebar{
     flex: 0 0 auto;
     text-decoration: none;
     color: #1f4034;
-    padding: 0.1em;
+    padding: 0.3em;
 }
 
 .item-sidebar:hover{
@@ -38,9 +39,7 @@
     position: relative;
     margin-left: 85%;
     margin-top: 10%;
-
     cursor: pointer;
-
 }
 @media only screen and (min-width: 350px){
     .navIcon{
@@ -53,14 +52,18 @@
 }
 @media only screen and (min-width:700px){
     .navIcon{
-        margin-left: 80%;
+        margin-left:65%;
     }
     .items-sidebar{
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-left: 25%;
 
     }
 }
 @media only screen and (min-width: 1200px){
+.navIcon{
+    font-size: 1.1em;
+}
 
 }
+

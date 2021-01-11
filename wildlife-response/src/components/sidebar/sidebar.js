@@ -17,12 +17,7 @@ const Sidebar=()=>{
         marginRight:"20px"
     }}/>
     if(toggleSidebar===true){
-        navigation= <nav className={classes.itemsSidebar} >
-            <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
-            <NavLink to='/mission' className={classes.itemSidebar}>Mission</NavLink>
-            <NavLink to='/about' className={classes.itemSidebar}>About</NavLink>
-            <NavLink to='/contact' className={classes.itemSidebar}>Contact us</NavLink>
-        </nav>
+
         icon= <IoMdClose className='icon-2' style={{
             position:"relative",
             top:"7px",
@@ -30,16 +25,22 @@ const Sidebar=()=>{
             color:"#14281f",
             marginRight:"20px"
         }}/>
+        navigation= <nav className={classes.itemsSidebar} >
+            <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
+            <NavLink to='/mission' className={classes.itemSidebar}>Mission</NavLink>
+            <NavLink to='/about' className={classes.itemSidebar}>About</NavLink>
+            <NavLink to='/contact' className={classes.itemSidebar}>Contact</NavLink>
+        </nav>
+
 
     }
 
     return(
         <>
-            <div className={classes.navIcon} onClick={onToggle}>
+            <div className={classes.navIcon} onClick={onToggle} >
                 {icon}
+                {navigation}
             </div >
-             {navigation}
-
             </>
     )
 };
