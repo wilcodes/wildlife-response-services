@@ -3,10 +3,12 @@ import Subtitle from "../services/Subtitle/Subtitle";
 import classes from "./Mission.module.css";
 import { CgWorkAlt, CgProfile, } from "react-icons/cg";
 import {VscWarning, VscCalendar} from "react-icons/vsc";
+import dotImage from "../../images/dots-wildlifeWebsite.png";
 const Mission =(props)=>{
     return(
         <>
-            <Subtitle titleName={"mission"}/>
+            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-y"}}>
+            <Subtitle titleName={"mission"}  />
             <div className={classes.introductionContainer}>
                 <p className={classes.introductionText}> Located in the upper Texas Gulf Coast area, WRS personnel have been involved in wildlife rehabilitation and oiled wildlife response for over twenty years,
                     and possess both state and federal permits, including permits to rehabilitate endangered species.
@@ -38,7 +40,7 @@ const Mission =(props)=>{
                     </div>
                 </div>
             </div>
-
+            </section>
 
             </>
     )

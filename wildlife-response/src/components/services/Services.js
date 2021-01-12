@@ -5,9 +5,10 @@ import image1 from "../../images/wildlife-about-1.jpg";
 import image2 from "../../images/wildlife-about-2.jpg";
 import image3 from "../../images/wildlife-about-3.jpg";
 import image4 from "../../images/bird.png"
+import dotImage from "../../images/dots-wildlifeWebsite.png";
 const Services =()=> {
     return(
-        <section className={classes.section}>
+        <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
             <Subtitle titleName={"services"} />
             <p className={classes.textInt}> We can help you with... </p>
             <div className="container">
@@ -31,8 +32,8 @@ const Services =()=> {
                     </div>
                 </div>
             </div>
-            <img src={image4} alt="icon" className={classes.footerImage}/>
-            <img src={image4} alt="icon" className={classes.footerImage2}/>
+            {/*<img src={image4} alt="icon" className={classes.footerImage}/>*/}
+            {/*/!*<img src={image4} alt="icon" className={classes.footerImage2}/>*!/*/}
         </section>
     )
 };
