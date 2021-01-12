@@ -1,11 +1,11 @@
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Mission from "../components/Mission/Mission";
 
 const mission = () => (
     <Layout>
-        <h1> Our mission</h1>
+        <Mission/>
     </Layout>
 
 )
