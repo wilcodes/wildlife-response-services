@@ -9,7 +9,7 @@ const Sidebar=()=>{
       setToggleSidebar(!toggleSidebar);
     };
     let navigation=null
-    let icon = <IoIosMenu className='icon-2' style={{
+    let icon = <IoIosMenu  onClick={onToggle} className='icon-2' style={{
         position:"relative",
         top:"7px",
         fontSize:"40px",
@@ -18,7 +18,7 @@ const Sidebar=()=>{
     }}/>
     if(toggleSidebar===true){
 
-        icon= <IoMdClose className='icon-2' style={{
+        icon= <IoMdClose onClick={onToggle} className='icon-2' style={{
             position:"relative",
             top:"7px",
             fontSize:"40px",
@@ -34,7 +34,7 @@ const Sidebar=()=>{
     }
     return(
         <>
-            <div className={classes.navIcon} onClick={onToggle} >
+            <div className={classes.navIcon}  >
                 {icon}
                 {navigation}
             </div >

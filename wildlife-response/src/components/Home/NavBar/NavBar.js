@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect,useCallback} from "react";
 import {Link} from "gatsby";
 import classes from "./Navbar.module.css"
 import logo from "../../../images/transparent-logo.png";
@@ -6,18 +6,17 @@ import Sidebar from "../../sidebar/sidebar";
 const NavBar = () =>{
     const NavLink =(Link);
     const [windowWidth, setWindowWidth]= useState(window.innerWidth);
-    const handleResize =()=>{
+    const handleResize =useCallback(()=>{
         setWindowWidth(window.innerWidth);
-    };
+    },[setWindowWidth]);
 
     useEffect(()=>{
         window.addEventListener("resize", handleResize);
-        console.log("i am mounted")
         return ()=>{
             window.addEventListener("resize", handleResize);
-            console.log("i am unmounted")
         }
     },[handleResize]);
+
 let conditionalNav= null;
     if (windowWidth>1124) {
         conditionalNav= <nav className={classes.parent} >

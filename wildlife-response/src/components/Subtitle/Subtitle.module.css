@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
 .mainSubtitle{
     text-align: center;
     padding: 0.7em;
     margin-top: 3.5em;
+
     overflow:hidden;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0,0,0);
 }
 .text{
-
     font-size: 3.5em;
-    font-family: Lato;
+    font-family: Viga;
     color: #64817d;
     text-shadow: 1px 1px #b8b8b8;
     font-weight: lighter;

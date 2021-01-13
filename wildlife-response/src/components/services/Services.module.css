@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
 .section{
     height: 100vh;
 }
@@ -13,7 +14,7 @@
 .textInt{
     text-align: center;
     font-size: 1.5em;
-    font-family: Lato;
+    font-family: Viga;
     font-weight: lighter;
     color:#64817d;
     padding: 1.5em;

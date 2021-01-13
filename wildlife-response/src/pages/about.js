@@ -1,11 +1,10 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import About from "../components/About/About";
 const aboutUs = () => (
     <Layout>
-        <h1> About us</h1>
+        <About/>
     </Layout>
 
 )
