@@ -31,10 +31,7 @@ const Sidebar=()=>{
             <NavLink to='/about' className={classes.itemSidebar}>About</NavLink>
             <NavLink to='/contact' className={classes.itemSidebar}>Contact</NavLink>
         </nav>
-
-
     }
-
     return(
         <>
             <div className={classes.navIcon} onClick={onToggle} >

@@ -1,5 +1,4 @@
 .introductionText{
-    margin-right:2.7em;
     padding: 0.5em;
     font-size: 1.2em;
     font-family: Lato;
@@ -13,7 +12,8 @@
 
 }
 .information{
-    margin-right:1.5em;
+    text-align: center;
+    /*margin-right:1.5em;*/
     font-size: 1.2em;
     font-family: Lato;
     font-weight: lighter;

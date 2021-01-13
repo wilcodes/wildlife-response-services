@@ -1,20 +1,24 @@
 import React from "react";
-import Subtitle from "./Subtitle/Subtitle";
+import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Services.module.css";
 import image1 from "../../images/wildlife-about-1.jpg";
 import image2 from "../../images/wildlife-about-2.jpg";
 import image3 from "../../images/wildlife-about-3.jpg";
 import image4 from "../../images/bird.png"
 import dotImage from "../../images/dots-wildlifeWebsite.png";
+import NavTwo from "../NavTwo/NavTwo";
+import LogoNav from "../LogoNav/LogoNav";
 const Services =()=> {
     return(
         <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
+            <LogoNav/>
+            <NavTwo/>
             <Subtitle titleName={"services"} />
             <p className={classes.textInt}> We can help you with... </p>
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm" style={{textAlign:"justify"}}>
-                        <img src="image-1 " src={image1} className={classes.images} style={{marginLeft:"3em"}} alt="Turtle Image"/>
+                    <div className="col-sm" style={{textAlign:"center"}}>
+                        <img src="image-1 " src={image1} className={classes.images} alt="Turtle Image"/>
                        <p className={classes.information}> This small snapping turtle is one of several species of turtles that have been cared for by WRS staff members.
                            The head is covered with a section of PVC pipe during the cleaning process to avoid harm to response personnel.</p>
                     </div>

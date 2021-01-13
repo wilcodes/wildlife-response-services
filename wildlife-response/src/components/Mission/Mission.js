@@ -1,13 +1,18 @@
 import React from "react";
-import Subtitle from "../services/Subtitle/Subtitle";
+import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Mission.module.css";
 import { CgWorkAlt, CgProfile, } from "react-icons/cg";
 import {VscWarning, VscCalendar} from "react-icons/vsc";
 import dotImage from "../../images/dots-wildlifeWebsite.png";
+import NavTwo from "../NavTwo/NavTwo";
+import LogoNav from "../LogoNav/LogoNav";
 const Mission =(props)=>{
     return(
         <>
-            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-y"}}>
+
+            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
+                <LogoNav/>
+                <NavTwo/>
             <Subtitle titleName={"mission"}  />
             <div className={classes.introductionContainer}>
                 <p className={classes.introductionText}> Located in the upper Texas Gulf Coast area, WRS personnel have been involved in wildlife rehabilitation and oiled wildlife response for over twenty years,
@@ -16,8 +21,8 @@ const Mission =(props)=>{
             </div>
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm" >
-                        <CgWorkAlt className={classes.icons} style={{marginLeft:"1.1em"}} />
+                    <div className="col-sm" style={{textAlign:"center"}} >
+                        <CgWorkAlt className={classes.icons}  />
                         <h3 className={classes.subtitle}> Amazing training Skills</h3>
                         <p className={classes.information}> Conduct training workshops for responders, agency representatives, and industry personnel.</p>
                     </div>
