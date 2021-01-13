@@ -9,13 +9,14 @@ const Subtitle =(props)=>{
     return(
         <>
             <ul className={classes.subtitle}>
-                <li> <Sidebar classname={classes.unique}/> </li>
-                <div>
-                    <li>  <h2>{props.titleName}</h2> </li>
+                <li className={classes.elements}> <Sidebar /> </li>
+                <li className={classes.elements}>
+                <div className={classes.subtitleDiv}>
+                     <h2>{props.titleName}</h2>
                     <span></span>
                 </div>
-
-                <li> <NavLink to="/"><img src={logo} alt="Wildlife response logo" className={classes.image}/></NavLink></li>
+                </li>
+                <li className={classes.elements} style={{order:"1"}} > <NavLink to="/"><img src={logo} alt="Wildlife response logo" className={classes.image}/></NavLink></li>
             </ul>
 
             </>

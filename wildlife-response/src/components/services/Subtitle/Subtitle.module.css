@@ -11,7 +11,7 @@
 h2{
 
     font-size: 3.5em;
-    font-family: "Lato";
+    font-family: Lato;
     color: #64817d;
     text-shadow: 1px 1px #b8b8b8;
     margin-left: 0.5em;
@@ -19,28 +19,30 @@ h2{
     text-transform: uppercase;
 
 }
-li{
-    flex: 0 0 auto;
-}
+
 span{
     display:inline-block;
-    position: absolute;
+    position: relative;
     align-items: center;
     height: 9px;
-    width: 40%;
+    width: 20em;
     background: #fca26e;
     border-radius: 9px;
     opacity: 1;
     top: 17%;
-    left: 27%;
+
 }
 
-
+.elements{
+    flex: 0 0 auto;
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .image{
         width: 7em;
         margin-bottom: 30%;
     }
+
+
 }
 @media only screen and (min-width:700px) and (max-width: 1200px){
     .image{
