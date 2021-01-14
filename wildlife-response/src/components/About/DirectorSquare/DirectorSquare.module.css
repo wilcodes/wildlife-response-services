@@ -1,12 +1,14 @@
 .container{
-    float: right;
-    padding:1em 1em 1em 1em ;
+    padding:1em ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 90%;
+    /*margin: 0 auto;*/
+    margin-left: 9%;
+
 }
 
 .directorTitle{
@@ -20,13 +22,14 @@
 }
 .image {
     grid-area: 1 / 2 / 2 / 4;
-    border-radius: 0px 0 0 20px;
+
 
 }
 .bird{
     width: 90%;
     height: 100%;
     background: rgb(130, 140, 129);
+    border-radius: 0 20px 20px 0;
 }
 .text{
     grid-area: 1 / 2 / 2 / 3;
