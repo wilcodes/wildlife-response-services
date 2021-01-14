@@ -11,7 +11,7 @@ const Button=()=>{
                 top:"7px",
                 color:"#f5751D"
             }}/> Learn More </NavLink>
-        <NavLink  className={classes.Button2} to='/services'>  <IoMdArrowRoundForward className='icon-2' style={{
+        <NavLink  className={classes.Button2} to='/contact'>  <IoMdArrowRoundForward className='icon-2' style={{
             position:"relative",
             top:"7px",
             color:"#f5751D"

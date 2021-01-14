@@ -9,12 +9,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        fonts:[
-          {
-            family: "Lato",
-            variants: ["400","700"]
-          }
-        ],
         name: `images`,
         path: `${__dirname}/src/images`,
       },

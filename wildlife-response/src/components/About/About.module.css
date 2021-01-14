@@ -1,0 +1,10 @@
+.introductionParagraph{
+    padding: 1em;
+    font-size: 1.2em;
+    font-family: Lato;
+    font-weight: lighter;
+    color:#64817d;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
