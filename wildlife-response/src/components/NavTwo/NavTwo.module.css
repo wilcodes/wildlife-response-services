@@ -35,19 +35,16 @@
     transition: all 1s ease;
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
-    .children{
+
+    .parent{
         font-size: 0.7em;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1020px){
-    .children{
-
+    .parent{
+        font-size: 0.9em;
     }
 }
-@media only screen and (min-width: 1020px) and (max-width: 1025px){
-    .title{
-        font-size: 4em;
-        padding: 1em 0;
-    }
+@media only screen and (min-width: 1020px) {
 
 }

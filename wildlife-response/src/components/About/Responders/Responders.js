@@ -21,8 +21,8 @@ const Responders =()=>{
 
                 <div className={classes.pictureTwo}>
                     <img src={animal2} alt="william" className={classes.image}/> </div>
-                <div className={classes. informationTwo}>
-                    <p className={classes.description}> Brian Cain received a Bachelor and Master of Science degree from Texas A&I Univ. in Kingsville, TX in 1965 and 1968,
+                <div className={classes.ContainerInformationTwo}>
+                    <p className={classes.descriptionTwo}> Brian Cain received a Bachelor and Master of Science degree from Texas A&I Univ. in Kingsville, TX in 1965 and 1968,
                         and a Ph D from the Univ. of Illinois in 1972. He worked as an Assistant Professor at Texas A&M University in the Wildlife Department until 1978 when
                         he joined the U. S.
                         Fish and Wildlife Service as a Contaminant Specialist. He remained in that position until retiring in January 2007.</p> </div>
@@ -38,6 +38,7 @@ const Responders =()=>{
                         Fish and Wildlife Service as a Contaminant Specialist. He remained in that position until retiring in January 2007.</p> </div>
                 <div/>
             </div>
+
 
         </>
     )

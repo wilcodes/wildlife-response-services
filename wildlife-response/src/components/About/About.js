@@ -18,6 +18,7 @@ return(
                     Wildlife Response Services, LLC has a number of uniquely qualified wildlife responders and maintains a database of additional on-call contract personnel to assist with an incident, regardless of size or scope
                     The company was established in 2006 and is in the process of completing documentation for certification as both a Woman-Owned and Historically Underutilized Business.    </p>
                     <DirectorSquare/>
+                    <div className={classes.lineSeparator}/>
                     <Responders/>
             </section>
 
