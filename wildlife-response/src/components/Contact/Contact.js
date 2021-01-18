@@ -1,7 +1,7 @@
 import React from "react";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
-import dotImage from "../../images/dots-wildlifeWebsite.png";
+import dotImage from "../../images/dots-wildlifeWebsite-2.png";
 import Subtitle from "../Subtitle/Subtitle";
 const Contact =()=>{
     return(

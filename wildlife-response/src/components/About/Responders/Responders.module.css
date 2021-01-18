@@ -71,3 +71,107 @@ grid-column: 2/3;
     text-shadow: 1px 1px #b8b8b8;
 
 }
+
+.lineSeparator{
+    height:5px;
+    width: 50%;
+    background: #f5751d;
+    margin: 2em auto;
+    border-radius: 1px;
+    align-items: center;
+}
+@media only screen and (min-width: 350px) and (max-width: 700px) {
+    .container {
+        display: grid;
+        position: relative;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+    .description {
+        border-radius: 10px;
+        background-color: #64817d;
+        font-family: Lato;
+        text-shadow: 1px 1px #b8b8b8;
+        margin-left: 2em;
+
+    }
+
+    .positionTitle {
+        color: #fca26e;
+        font-family: Viga;
+        padding: 0.5em 0;
+        margin-left: 2em;
+    }
+
+    .containerRight {
+        display: grid;
+        position: relative;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+    .pictureTwo {
+        grid-column: 1/1;
+        grid-row: 1/2;
+        margin-left: 2em;
+        width: 80%;
+    }
+
+    .ContainerInformationTwo {
+        grid-column: 1/2;
+        grid-row: 2/2;
+
+    }
+    .descriptionTwo{
+        margin-left: 2em;
+    }
+    .positionTitleTwo{
+        padding: 0.5em 0;
+        margin-left: 2em;
+    }
+}
+@media only screen and (min-width:700px) and (max-width: 1020px){
+    .container{
+        display: grid;
+        position: relative;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+    .containerRight{
+        display: grid;
+        position: relative;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+    .pictureTwo {
+        grid-column: 1/1;
+        grid-row: 1/2;
+        margin-left: 2em;
+        width: 80%;
+    }
+
+    .ContainerInformationTwo {
+        grid-column: 2/2;
+        grid-row: 1/2;
+
+    }
+    .descriptionTwo{
+        margin-left: 0;
+    }
+    .positionTitleTwo{
+        padding: 0.5em 0;
+        margin-left: 2em;
+    }
+    .positionTitle{
+        padding: 0.5em 0;
+        margin-left: 2em;
+    }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1025px){
+    .title{
+        font-size: 4em;
+        padding: 1em 0;
+    }
+
+}

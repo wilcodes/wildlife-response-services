@@ -8,14 +8,7 @@
     width: 65%;
     margin: 0 auto;
 }
-.lineSeparator{
-    height:5px;
-    width: 50%;
-    background: #f5751d;
-    margin: 2em auto;
-    border-radius: 1px;
-    align-items: center;
-}
+
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .introductionParagraph{
         font-size:1em ;

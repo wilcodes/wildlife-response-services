@@ -3,9 +3,11 @@ import classes from "./Responders.module.css";
 import animal1 from "../../../images/animal1.jpg";
 import animal2 from "../../../images/animal2.jpg";
 import animal3 from "../../../images/animal3.jpg";
+
 const Responders =()=>{
     return(
         <>
+            <div className={classes.lineSeparator}/>
             <h2 className={classes.positionTitle}>Deer</h2>
         <div className={classes.container}>
             <div className={classes.picture}> <img src={animal1} alt="william " className={classes.image}/> </div>
@@ -16,6 +18,7 @@ const Responders =()=>{
                 Fish and Wildlife Service as a Contaminant Specialist. He remained in that position until retiring in January 2007.</p> </div>
             <div/>
         </div>
+            <div className={classes.lineSeparator}/>
             <h2 className={classes.positionTitleTwo}>Panda</h2>
             <div className={classes.containerRight}>
 
@@ -28,6 +31,7 @@ const Responders =()=>{
                         Fish and Wildlife Service as a Contaminant Specialist. He remained in that position until retiring in January 2007.</p> </div>
                 <div/>
             </div>
+            <div className={classes.lineSeparator}/>
             <h2 className={classes.positionTitle}>Turtle</h2>
             <div className={classes.container}>
                 <div className={classes.picture}> <img src={animal3} alt="william " className={classes.image}/> </div>
