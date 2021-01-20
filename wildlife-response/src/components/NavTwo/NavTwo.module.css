@@ -3,7 +3,7 @@
     top: 18%;
     left: 0;
     width: 100%;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;

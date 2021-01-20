@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Viga');
 .subtitle{
     color: #1f4034;
     text-transform: uppercase;
@@ -6,7 +6,73 @@
     font-weight: lighter;
     padding-top: 0.7em;
     color: #fca26e;
-    font-family: Lato;
+    font-family: Viga;
     text-align: center;
     text-shadow: 1px 1px #1f4034;
+}
+.label{
+font-family: Lato;
+    font-size: 1.2em;
+    color: #1f4034;
+    font-weight: lighter;
+    padding: 1em;
+
+
+}
+
+/*.input[type=text], .input[type=email],.select, .textarea{*/
+/*    width: 80%;*/
+/*    padding: 1em;*/
+/*    border-radius: 3px;*/
+/*    border: 1px solid #ccc;*/
+
+/*}*/
+.form{
+    display: flex ;
+    flex-flow: column wrap;
+    width: 50%;
+    /*box-shadow:  2px 3px #eeeeee;*/
+    /*border: 1px solid #eee;*/
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.input[type=text], .input[type=email], .select, .textArea{
+    font-family: Lato;
+    font-size: 1em;
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    padding: 1em;
+    outline: none;
+
+
+}
+.input:focus, .select:focus, .textArea{
+    border-bottom: 2px solid rgba(0,0,0,1);
+}
+
+.button{
+    font-size: 1em;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #64817d 40%, #fca26e 60%);
+    background-image: -webkit-linear-gradient(45deg, #64817d 0%, #fca26e 100%);
+    transition: .4s;
+    width: 30%;
+    align-self: center;
+    margin-top: 1em;
+    font-family: Viga;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.button:hover{
+    background-image: -webkit-linear-gradient(45deg, #1f4034 20%, #f5751d 80%);
+    background-image: linear-gradient(45deg, #1f4034 0%, #f5751d 100%);
+}
+.icon{
+    position: relative;
+    top: 3px;
 }
