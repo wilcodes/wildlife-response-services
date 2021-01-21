@@ -9,7 +9,7 @@ const DirectorSquare =()=>(
                <p className={classes.directorName}>RONDA MURGATROYD</p>
            </div>
            <div className={classes.image}>
-               <img src={bird} className={classes.bird}/>
+               <img src={bird} className={classes.bird} alt={"bird"}/>
            </div>
            <div className={classes.text}>
                <p className={classes.description}>  Rhonda Murgatroyd is the owner and managing director of Wildlife Response Services, LLC located in the Houston/Galveston area.
