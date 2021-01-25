@@ -1,15 +1,16 @@
 
 .parent{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row ;
     font-family: Lato;
     font-size: 1.4rem;
     padding: 4rem;
 }
 .children{
-    flex: 0 0 auto;
+
+    flex: 0 0 30%;
     text-decoration: none;
     color: #1f4034;
 
@@ -27,9 +28,7 @@
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-    text-decoration: black;
-    border-bottom:1px solid #1f4034 ;
-    z-index: 1;
+    text-decoration: underline;
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .image{
