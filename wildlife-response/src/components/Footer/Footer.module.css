@@ -4,13 +4,44 @@
     bottom: 0;
     left: 0;
     right:0;
-
 }
 .element{
     font-family: Lato;
     color: #1f4034;
 }
-
+.globalElement{
+    font-family: Lato;
+    color:#ccdcdd;
+}
+.globalFooter{
+    margin-top: 5em;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color: #64817d;
+}
+.NavFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    font-family: Lato;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.FooterLinks{
+    flex: 0 0 auto;
+    text-decoration: none;
+    color: #ccdcdd;
+    padding: 0.3em;
+}
+.FooterLinks:hover{
+    color: #fca26e;
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .element{
         font-size:0.8em ;

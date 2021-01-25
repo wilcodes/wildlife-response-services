@@ -1,10 +1,13 @@
 import React, {useState, useEffect, useCallback} from "react";
+import {Link} from "gatsby";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import dotImage from "../../images/dots-wildlifeWebsite-2.png";
 import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Contact.module.css";
 import {IoIosPerson, IoIosMail, IoMdPaperPlane, IoMdHelpCircleOutline}  from "react-icons/io";
+import Footer from "../Footer/Footer";
+
 const Contact =()=>{
     const [isValidated,setValidation]=useState(false);
     const [contactName,setContactName]= useState('');
@@ -24,7 +27,7 @@ const checkValidation =useCallback( ()=>{
     let button=null
         if (isValidated===true){
           button = <>
-              <button type="submit"
+               <button type="submit"
                       className={classes.button}
                       disabled={!isValidated}
               > Click Here to Submit!</button>
@@ -33,7 +36,7 @@ const checkValidation =useCallback( ()=>{
             button = <>
                 <button type="submit"
                         className={[classes.button,classes.disabled].join(' ')}
-                        disabled={!isValidated}
+                        disabled={!isValidated} to={'/'}
                 > Click Here to Submit!</button>
             </>
         }
@@ -41,11 +44,11 @@ const checkValidation =useCallback( ()=>{
     return(
 
         <>
-            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
+            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
                 <LogoNav/>
                 <NavTwo/>
                 <Subtitle titleName={"Contact us"}/>
-                <form className={classes.form}>
+                <form className={classes.form} >
                     <h2 className={classes.subtitle} >We are ready to help you! </h2>
                             <label htmlFor={"name"} className={classes.label}>
                               <IoIosPerson className={classes.icon}/>  Your Name
@@ -101,6 +104,7 @@ const checkValidation =useCallback( ()=>{
 
                             {button}
                 </form>
+                <Footer/>
             </section>
 
         </>

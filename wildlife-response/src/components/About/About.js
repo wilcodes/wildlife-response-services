@@ -6,6 +6,7 @@ import Subtitle from "../Subtitle/Subtitle";
 import DirectorSquare from "./DirectorSquare/DirectorSquare";
 import classes from "./About.module.css";
 import Responders from "./Responders/Responders";
+import Footer from "../Footer/Footer";
 const About =()=>{
 return(
     <>
@@ -19,6 +20,7 @@ return(
                     The company was established in 2006 and is in the process of completing documentation for certification as both a Woman-Owned and Historically Underutilized Business.    </p>
                     <DirectorSquare/>
                     <Responders/>
+                    <Footer/>
             </section>
 
         </>

@@ -25,7 +25,8 @@ const Sidebar=()=>{
             color:"#14281f",
             marginRight:"20px"
         }}/>
-        navigation= <nav className={classes.itemsSidebar} >
+
+        navigation=  <nav className={classes.itemsSidebar} >
             <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
             <NavLink to='/mission' className={classes.itemSidebar}>Mission</NavLink>
             <NavLink to='/about' className={classes.itemSidebar}>About</NavLink>

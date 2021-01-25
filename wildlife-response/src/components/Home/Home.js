@@ -12,7 +12,7 @@ const Home =()=>{
                 <Navbar />
                 <Title/>
                 <Button/>
-                <Footer/>
+                <Footer id={"home"}/>
             </header>
                 </>
     )

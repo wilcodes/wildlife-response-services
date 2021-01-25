@@ -7,6 +7,7 @@ import image3 from "../../images/wildlife-about-3.jpg";
 import dotImage from "../../images/dots-wildlifeWebsite-2.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
+import Footer from "../Footer/Footer";
 const Services =()=> {
     return(
         <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
@@ -35,6 +36,7 @@ const Services =()=> {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </section>
     )
 };

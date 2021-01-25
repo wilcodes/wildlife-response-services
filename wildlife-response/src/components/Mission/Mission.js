@@ -6,6 +6,7 @@ import {VscWarning, VscCalendar} from "react-icons/vsc";
 import dotImage from "../../images/dots-wildlifeWebsite-2.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
+import Footer from "../Footer/Footer";
 const Mission =(props)=>{
     return(
         <>
@@ -45,6 +46,7 @@ const Mission =(props)=>{
                     </div>
                 </div>
             </div>
+                <Footer/>
             </section>
 
             </>

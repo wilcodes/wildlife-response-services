@@ -1,3 +1,8 @@
+/*.navWrapper{*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    z-index: 4;*/
+/*}*/
 .items-sidebar{
     position: relative;
     display: flex;
@@ -8,7 +13,6 @@
     font-size: 1.4rem;
     position: absolute;
     /*margin-left: 30%;*/
-
 }
 .item-sidebar{
     flex: 0 0 auto;

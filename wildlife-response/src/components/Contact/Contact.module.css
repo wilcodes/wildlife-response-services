@@ -36,6 +36,7 @@ font-family: Lato;
     border-radius: 20px;
     margin: 0 auto;
     padding: 1em 0;
+
 }
 .input[type=text], .input[type=email], .select, .textArea{
     font-family: Lato;
@@ -44,6 +45,7 @@ font-family: Lato;
     border-bottom: 2px solid rgba(0,0,0,0.4);
     padding: 1em 0;
     outline: none;
+
 
 
 }
