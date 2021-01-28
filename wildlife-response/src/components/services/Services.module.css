@@ -12,11 +12,13 @@
 
 }
 .textInt{
-    text-align: center;
+    text-transform: uppercase;
     font-size: 1.5em;
-    font-family: Viga;
     font-weight: lighter;
-    color:#64817d;
+    color: #fca26e;
+    font-family: Viga;
+    text-align: center;
+    text-shadow: 1px 1px #1f4034;
     padding: 1.5em;
 }
 .images:hover{

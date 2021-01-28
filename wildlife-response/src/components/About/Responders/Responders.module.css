@@ -24,6 +24,7 @@ margin-left: 2em;
     margin-left: 2em;
 }
 .description{
+    height: 100%;
     margin-right: 2em;
     border-radius: 10px;
     background-color: #64817d;
@@ -69,6 +70,7 @@ grid-column: 2/3;
     padding: 1em;
     font-family: Lato;
     text-shadow: 1px 1px #b8b8b8;
+    height: 100%;
 
 }
 
