@@ -6,18 +6,8 @@ const Button=()=>{
     const NavLink =(Link);
     return(
         <>
-            <NavLink  className={classes.Button} to='/services'>  <IoMdArrowRoundForward className='icon-2' style={{
-                position:"relative",
-                top:"7px",
-                color:"#f5751D"
-            }}/> Learn More </NavLink>
-        <NavLink  className={classes.Button2} to='/contact'>  <IoMdArrowRoundForward className='icon-2' style={{
-            position:"relative",
-            top:"7px",
-            color:"#f5751D"
-        }}/> I Really need Help  </NavLink>
-
-
+            <NavLink  className={classes.Button} to='/services'>  <IoMdArrowRoundForward className={classes.Icon} /> Learn More </NavLink>
+        <NavLink  className={classes.Button2} to='/contact'>  <IoMdArrowRoundForward className={classes.Icon}/> I Really need Help  </NavLink>
         </>
     )
 

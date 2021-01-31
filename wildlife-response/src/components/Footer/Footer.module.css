@@ -46,6 +46,9 @@
     .element{
         font-size:0.8em ;
     }
+    .NavFooter{
+        font-size: 0.8em;
+    }
 }
 @media only screen and (min-width:700px) and (max-width: 1200px){
     .element{
