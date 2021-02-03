@@ -1,7 +1,7 @@
 import React, {useState, useEffect,useCallback} from "react";
 import {Link} from "gatsby";
 import classes from "./Navbar.module.css"
-import logo from "../../../images/dark-newLogo.png";
+import logo from "../../../images/wil2.png";
 import Sidebar from "../../sidebar/sidebar";
 const NavBar = () =>{
     const NavLink =(Link);

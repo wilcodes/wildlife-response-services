@@ -10,15 +10,15 @@
 }
 .children{
 
-    flex: 0 0 30%;
+    flex: 0 0 26%;
     text-decoration: none;
-    color: #c4bfbf;
+    color: #efefef;
 
 }
 
 
 .children:hover {
-    color: #477dbc;
+    color: #f5f5f5;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -32,21 +32,21 @@
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .image{
-        padding: 1em;
-        width: 7em;
+        padding-top: 1.5em;
+        width: 11em;
         margin-bottom: 30%;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1200px){
     .image{
-        padding: 1em;
-        width: 8em;
+        padding-top: 2em;
+        width: 13em;
     }
 }
 @media only screen and (min-width: 1201px){
     .image{
-        padding: 2em;
-        width: 11em;
+        padding-top: 2em;
+        width: 16em;
         height: auto;
 
     }
