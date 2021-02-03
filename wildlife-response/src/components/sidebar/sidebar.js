@@ -3,7 +3,6 @@ import {Link} from "gatsby";
 import classes from "./sidebar.module.css";
 import {IoIosMenu, IoMdClose, IoIosArrowRoundForward} from "react-icons/io";
 import Backdrop from "../Backdrop/Backdrop";
-import logo from "../../images/logo.png";
 const Sidebar=()=>{
     let [toggleSidebar, setToggleSidebar]=useState("closed");
     let attachedClasses=[classes.sidebarWrapper];
@@ -34,7 +33,6 @@ const Sidebar=()=>{
 
                         <IoMdClose onClick={closeSidebar} className={[classes.Icon, classes.IconX].join(' ')} />
                         <nav className={classes.itemsSidebar} >
-                            <img src={logo} alt={"logo"} className={classes.logo}/>
                         <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
                         <NavLink to='/mission' className={classes.itemSidebar}>Mission </NavLink>
                         <NavLink to='/about' className={classes.itemSidebar}>About </NavLink>

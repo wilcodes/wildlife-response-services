@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 .parent{
-    top: 18%;
+    top: 0;
     left: 0;
     width: 100%;
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row;
     font-family: Viga;
     font-size: 1.3rem;
-
     box-shadow: 2px 2px 2px 2px #efefef;
     z-index: 9999;
     padding: 0.5em;
+    background-color: ghostwhite;
 }
 .children{
-    flex: 0 0 15%;
+    flex: 0 0 13%;
     text-decoration: none;
-    color: #64817d;
+    color: #03254c;
     text-align: center;
 
 
@@ -34,6 +34,9 @@
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+}
+.logo{
+    width: 2.5em;
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
 

@@ -12,13 +12,13 @@
 
     flex: 0 0 30%;
     text-decoration: none;
-    color: #1f4034;
+    color: #c4bfbf;
 
 }
 
 
 .children:hover {
-    color: #f5751d;
+    color: #477dbc;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -32,19 +32,23 @@
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .image{
+        padding: 1em;
         width: 7em;
         margin-bottom: 30%;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1200px){
     .image{
+        padding: 1em;
         width: 8em;
     }
 }
 @media only screen and (min-width: 1201px){
     .image{
-        width: 10rem;
+        padding: 2em;
+        width: 11em;
         height: auto;
+
     }
 
 }

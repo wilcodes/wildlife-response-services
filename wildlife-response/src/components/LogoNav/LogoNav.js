@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo.png";
+import logo from "../../images/newLogo.png";
 import classes from "./LogoNav.module.css";
 import {Link} from "gatsby";
 

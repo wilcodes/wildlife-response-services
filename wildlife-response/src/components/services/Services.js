@@ -6,12 +6,10 @@ import image2 from "../../images/wildlife-about-2.jpg";
 import image3 from "../../images/wildlife-about-3.jpg";
 import dotImage from "../../images/dots-wildlifeWebsite-2.png";
 import NavTwo from "../NavTwo/NavTwo";
-import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
 const Services =()=> {
     return(
         <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
-            <LogoNav/>
             <NavTwo/>
             <Subtitle titleName={"services"} />
             <p className={classes.textInt}> We can help you with... </p>

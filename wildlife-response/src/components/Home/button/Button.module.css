@@ -3,7 +3,7 @@
     font-family: Lato;
     font-size: 25px;
     margin-left: 2em;
-    color:#1f4034;
+    color:#070606;
     border-radius: 25px;
     border: 2px solid #1f4034;
     padding: 5px;
@@ -15,9 +15,9 @@
     font-family: Lato;
     font-size: 25px;
     margin-left: 2em;
-    color:#1f4034;
+    color:#c4bfbf;
     border-radius: 25px;
-    border: 2px solid #1f4034;
+    border: 2px solid #c4bfbf;
     padding: 5px;
 
 }
@@ -27,7 +27,7 @@
 .Icon{
     position:relative;
     top:6px;
-    color:#f5751D;
+    color:#477dbc;
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px){
