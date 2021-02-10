@@ -4,7 +4,7 @@ import classes from "./Services.module.css";
 import image1 from "../../images/wildlife-about-1.jpg";
 import image2 from "../../images/wildlife-about-2.jpg";
 import image3 from "../../images/wildlife-about-3.jpg";
-import dotImage from "../../images/dots-wildlifeWebsite-2.png";
+import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import Footer from "../Footer/Footer";
 import LogoNav from "../LogoNav/LogoNav";

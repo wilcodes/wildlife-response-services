@@ -2,7 +2,7 @@ import React, {useState, useEffect, useCallback} from "react";
 import {Link} from "gatsby";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
-import dotImage from "../../images/dots-wildlifeWebsite-2.png";
+import dotImage from "../../images/dotsNew.png";
 import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Contact.module.css";
 import {IoIosPerson, IoIosMail, IoMdPaperPlane, IoMdHelpCircleOutline}  from "react-icons/io";

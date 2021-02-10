@@ -3,7 +3,7 @@ import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Mission.module.css";
 import { CgWorkAlt, CgProfile, } from "react-icons/cg";
 import {VscWarning, VscCalendar} from "react-icons/vsc";
-import dotImage from "../../images/dots-wildlifeWebsite-2.png";
+import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
