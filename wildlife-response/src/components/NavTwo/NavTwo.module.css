@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 .parent{
-    top: 0;
+    top: 20%;
     left: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row;
     font-family: Viga;
     font-size: 1.3rem;
-    box-shadow: 2px 2px 2px 2px #efefef;
+    box-shadow: 3px 3px 2px 2px #efefef;
     z-index: 9999;
     padding: 0.5em;
-    background-color: ghostwhite;
+    /*background-color: #efefef;*/
 }
 .children{
     flex: 0 0 13%;

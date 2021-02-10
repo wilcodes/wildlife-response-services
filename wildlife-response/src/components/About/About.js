@@ -7,6 +7,7 @@ import DirectorSquare from "./DirectorSquare/DirectorSquare";
 import classes from "./About.module.css";
 import Responders from "./Responders/Responders";
 import Footer from "../Footer/Footer";
+import ListOfResponders from './ListOfResponders/ListOfResponders';
 const About =()=>{
 return(
     <>
@@ -21,6 +22,7 @@ return(
                     <DirectorSquare/>
                     <Responders/>
                     <Footer/>
+
             </section>
 
         </>

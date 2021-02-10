@@ -15,7 +15,7 @@ const LogoNav =()=>{
                     textAlign:"center",
                     position:"relative",
                     clear:"both",
-                    padding:"1em"
+                    padding:"0.5em"
                 }
             }>
                 <Navlink to={"/"} > <img src={logo} alt="Wildlife Logo" className={classes.logo}/></Navlink>
