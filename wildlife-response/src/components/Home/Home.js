@@ -9,7 +9,7 @@ const Home =()=>{
     return(
         <>
             <header className={classes.header} style={{backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.3),
-                       rgba(0, 0, 0, 0.6)), url(${image})`}}>
+                       rgba(0, 0, 0, 0.5)), url(${image})`}}>
                 <Navbar />
                     <Title/>
                     <Button/>

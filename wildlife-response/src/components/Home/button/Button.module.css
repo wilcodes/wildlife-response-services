@@ -3,11 +3,11 @@
     font-family: Lato;
     font-size: 25px;
     margin-left: 2em;
-    color:#070606;
+    color:#21283B;
     border-radius: 25px;
     border: 2px solid #1f4034;
     padding: 5px;
-    background-color: #b8b8b8;
+    background-color: #c3ced4;
 
 }
 .Button2{
@@ -19,15 +19,17 @@
     border-radius: 25px;
     border: 2px solid #c4bfbf;
     padding: 5px;
+    transition: ease 0.5s;
 
 }
 .Button2:hover{
-    background-color: #b8b8b8;
+    background-color: #c3ced4;
+    color: #21283B;
 }
 .Icon{
     position:relative;
     top:6px;
-    color:#070606;
+    color:#21283B;
 }
 
 @media only screen and (min-width: 350px) and (max-width: 700px){

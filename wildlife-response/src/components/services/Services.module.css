@@ -7,9 +7,19 @@
     font-family: Lato;
     font-weight: lighter;
     color:#64817d;
-    padding: 1.5em;
+    padding: 1em;
 
 
+}
+.subDescription{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-top: 0.7em;
+    color: #21283B;
+    font-family: Viga;
+    text-align: center;
+    text-shadow: 1px 1px #a0bcbf;
 }
 .textInt{
     text-transform: uppercase;
@@ -23,14 +33,14 @@
 }
 .images:hover{
     opacity: 1;
-    transform: scale(1.05);
+    /*transform: scale(1.05);*/
 }
 .images {
-    width: 250px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
-    transform: scale(1.15);
-    transition: transform 0.7s, opacity0.5s;
+    /*transform: scale(1.15);*/
+    /*transition: transform 0.7s, opacity0.5s;*/
 }
 .footerImage{
     width: 100px;

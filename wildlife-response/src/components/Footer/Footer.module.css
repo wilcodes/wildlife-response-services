@@ -7,11 +7,12 @@
 }
 .element{
     font-family: Lato;
-    color: #efefef;
+    color: #c3ced4;
 }
 .globalElement{
     font-family: Lato;
     color:#ccdcdd;
+    font-size: 1.3em;
 }
 .globalFooter{
     margin-top: 5em;

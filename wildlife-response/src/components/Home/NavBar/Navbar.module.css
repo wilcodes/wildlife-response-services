@@ -12,13 +12,13 @@
 
     flex: 0 0 26%;
     text-decoration: none;
-    color: #efefef;
+    color: #c3ced4;
 
 }
 
 
 .children:hover {
-    color: #f5f5f5;
+    color: #a0bcbf;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
