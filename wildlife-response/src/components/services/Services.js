@@ -17,7 +17,7 @@ const Services =()=> {
             <p className={classes.textInt}> We can help you with... </p>
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm" style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
+                    <div className="col-sm"  style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
 
                         <h2 className={classes.subDescription}> Response</h2>
                        <p className={classes.information}> Participation in projects using proven skills in oversight capabilities with a detail-oriented
@@ -33,7 +33,7 @@ const Services =()=> {
                             multiple incidents concurrently.</p>
                         <img  src={image2} className={classes.images} alt="Bird"/>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center", backgroundColor:"#a0bcbf"}}>
+                    <div className="col-sm" style={{textAlign:"center", backgroundColor:"#a0bcbf"}} >
 
                         <h2 className={classes.subDescription}>Consulting</h2>
                        <p className={classes.information}> Skilled in management of operations involving multiple contractors for projects involving

@@ -19,19 +19,10 @@ font-family: Lato;
 
 }
 
-/*.input[type=text], .input[type=email],.select, .textarea{*/
-/*    width: 80%;*/
-/*    padding: 1em;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #ccc;*/
-
-/*}*/
 .form{
     display: flex ;
     flex-flow: column wrap;
     width: 50%;
-    /*box-shadow:  2px 3px #eeeeee;*/
-    /*border: 1px solid #eee;*/
     justify-content: center;
     border-radius: 20px;
     margin: 0 auto;
@@ -60,25 +51,25 @@ font-family: Lato;
     border-radius: 25px;
     text-decoration: none;
     color: #FFF;
-    background-image: linear-gradient(45deg, #64817d 40%, #fca26e 60%);
-    background-image: -webkit-linear-gradient(45deg, #64817d 0%, #fca26e 100%);
+    background-image: linear-gradient(45deg, #21283B 40%, #ebf1ff 60%);
+    background-image: -webkit-linear-gradient(45deg, #64817d 0%, #a0bcbf 100%);
     transition: .4s;
-    width: 30%;
+    width: 35%;
     align-self: center;
     margin-top: 1em;
     font-family: Viga;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
 }
 .button:hover{
-    background-image: -webkit-linear-gradient(45deg, #1f4034 20%, #f5751d 80%);
-    background-image: linear-gradient(45deg, #1f4034 0%, #f5751d 100%);
+    background-image: -webkit-linear-gradient(45deg, #c3ced4 20%, #ebf1ff 80%);
+    background-image: linear-gradient(45deg, #1f4034 0%, #21283B 100%);
 }
 .disabled{
     background-image: linear-gradient(45deg, #f5f5f5 40%, #c4bfbf 60%);
     background-image: -webkit-linear-gradient(45deg, #f3f3f3 0%, #efefef 100%);
     cursor: not-allowed;
     color: #b8b8b8;
-    text-shadow: 1px 1px #1f4034;
+    text-shadow: 1px 1px #21283B;
 }
 .disabled:hover{
     background-image: linear-gradient(45deg, #f5f5f5 40%, #c4bfbf 60%);

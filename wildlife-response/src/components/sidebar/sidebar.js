@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {Link} from "gatsby";
 import classes from "./sidebar.module.css";
-import {IoIosMenu, IoMdClose, IoIosArrowRoundForward} from "react-icons/io";
+import {IoIosMenu, IoMdClose} from "react-icons/io";
 import Backdrop from "../Backdrop/Backdrop";
 import image from "../../images/wil.png";
 const Sidebar=()=>{

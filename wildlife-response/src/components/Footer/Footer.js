@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import {IoLogoFacebook, IoLogoInstagram,IoLogoLinkedin } from "react-icons/io";
+import {IoLogoLinkedin } from "react-icons/io";
 import {Link} from "gatsby";
 const Footer= (props) =>{
     const NavLink =(Link);

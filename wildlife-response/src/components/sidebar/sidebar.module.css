@@ -9,8 +9,8 @@
     z-index: 200;
     padding: 32px 16px;
     box-sizing: border-box;
-    /*background-color: rgba(0,0,1.5,0.8);*/
-    background-color: #21283B;
+    background-color: rgba(0,0,1.5,0.8);
+
 }
 .items-sidebar{
     position: relative;

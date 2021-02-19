@@ -5,9 +5,9 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    width: 90%;
-    /*margin: 0 auto;*/
-    margin-left: 8%;
+    width: 80%;
+    margin: 0 auto;
+    /*margin-left: 13%;*/
 
 }
 
@@ -32,7 +32,7 @@
 }
 .text{
     grid-area: 1 / 2 / 2 / 3;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     padding: 0.5em;
 }
 .directorMainTitle{
@@ -40,10 +40,9 @@
     margin-top:70%;
     font-size: 4em;
     font-weight: lighter;
-    color: #1f4034;
-    text-shadow: 2px 2px #e6f0ef;
+    text-shadow: 2px 2px #21283B;
     text-transform: uppercase;
-    color: #4e6471;
+    color: #a0bcbf;
 }
 .directorName{
     font-family: Lato;
@@ -56,10 +55,10 @@
 }
 .description{
     padding: 0.5em;
-    margi: 0.5em;
-    font-size:1.4em;
+    margin: 0.5em;
+    font-size:1.2em;
     font-family: Lato;
-    color: #b8b8b8;
+    color: #c3ced4;
     font-weight: lighter;
 
 }

@@ -54,6 +54,9 @@
     right: 92%;
     bottom: 5%;
 }
+.subDescriptionWrapperThree{
+
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .images{
         width: 180px;
@@ -63,5 +66,8 @@
 @media only screen and (min-width:700px) and (max-width: 1020px){
     .images{
         width:200px;
+    }
+    .subDescriptionWrapperThree{
+        background-color: #21283B;
     }
 }

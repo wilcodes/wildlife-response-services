@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useCallback} from "react";
-import {Link} from "gatsby";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import dotImage from "../../images/dotsNew.png";
@@ -7,12 +6,11 @@ import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Contact.module.css";
 import {IoIosPerson, IoIosMail, IoMdPaperPlane, IoMdHelpCircleOutline}  from "react-icons/io";
 import Footer from "../Footer/Footer";
-
+import emailjs from "emailjs-com";
 const Contact =()=>{
     const [isValidated,setValidation]=useState(false);
     const [contactName,setContactName]= useState('');
     const [contactEmail,setContactEmail]= useState('');
-    const [contactFind,setContactFind]= useState('');
     const [contactMessage,setContactMessage]= useState('');
 
 const checkValidation =useCallback( ()=>{
@@ -41,6 +39,17 @@ const checkValidation =useCallback( ()=>{
             </>
         }
 
+        const sendEmail=(e)=>{
+            e.preventDefault();
+            emailjs.sendForm('service_c7mmf6g', 'template_gotx84l', e.target, 'user_SVVnZkO5DWGt5scPKPwAx')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+            window.location.reload();
+
+        };
     return(
 
         <>
@@ -48,14 +57,14 @@ const checkValidation =useCallback( ()=>{
                 <LogoNav/>
                 <NavTwo/>
                 <Subtitle titleName={"Contact us"}/>
-                <form className={classes.form} >
+                <form className={classes.form} onSubmit={sendEmail} >
                     <h2 className={classes.subtitle} >We are ready to help you! </h2>
                             <label htmlFor={"name"} className={classes.label}>
                               <IoIosPerson className={classes.icon}/>  Your Name
                             </label>
                             <input
                                 type="text"
-                                name="FirstName"
+                                name="name"
                                 id={"name"}
                                 className={classes.input}
                                 placeholder={"Type your name"}
@@ -68,7 +77,7 @@ const checkValidation =useCallback( ()=>{
                                <IoIosMail className={classes.icon}/> Email
                                 </label>
                             <input type="text"
-                                   name="Your email"
+                                   name="email"
                                    id={"email"}
                                    className={classes.input}
                                    placeholder={"Type your Email"}
@@ -77,23 +86,11 @@ const checkValidation =useCallback( ()=>{
                                    required
                             />
 
-                            <label htmlFor={"FindUs"} className={classes.label}>
-                               <IoMdPaperPlane className={classes.icon}/> How did you find us
-                            </label>
-                            <select name="Find us"  id={"FindUs"}
-                                    className={classes.select}
-                                    value={contactFind}
-                                    onChange={event => setContactFind(event.target.value)}>
-                                <option value=""> Select an option</option>
-                                <option value="Search Online"> Search Online</option>
-                                <option value="Referred">Referred </option>
-                                <option value="Other"> Others</option>
-                            </select>
 
                             <label htmlFor={"message"} className={classes.label} > <IoMdHelpCircleOutline className={classes.icon}/> Let us Help You</label>
 
                                 <textarea type="text"
-                                          name="Write your Message"
+                                          name="message"
                                           id={"message"}
                                           className={classes.textArea}
                                           placeholder={"Start typing your message"}

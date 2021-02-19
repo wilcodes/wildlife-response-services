@@ -7,6 +7,7 @@ import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
+import Video from "./Video/Video";
 const Mission =(props)=>{
     return(
         <>
@@ -22,23 +23,23 @@ const Mission =(props)=>{
             </div>
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm" style={{textAlign:"center"}} >
+                    <div className="col-sm"  >
                         <CgWorkAlt className={classes.icons}  />
                         <h3 className={classes.subtitle}> Amazing training Skills</h3>
                         <p className={classes.information}> Conduct training workshops for responders, agency representatives, and industry personnel.</p>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}}>
+                    <div className="col-sm" >
                         <CgProfile className={classes.icons}/>
                         <h3 className={classes.subtitle}> Experience in a great amount of spills</h3>
                         <p className={classes.information}> Participate in spill drills, exercises and panel discussions.</p>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}}>
+                    <div className="col-sm"  >
                         <VscWarning className={classes.icons}/>
                             <h3 className={classes.subtitle}> Quickly and efficient emergency services </h3>
                         <p className={classes.information}> Emergency Response; providing a professional, permitted wildlife spill management team.
                         </p>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}}>
+                    <div className="col-sm" >
                         <VscCalendar className={classes.icons}/>
                         <h3 className={classes.subtitle}> Connections with the environmental community</h3>
                         <p className={classes.information}> Consult with Environmental, Health and Safety personnel regarding potential wildlife issues on industrial facilities.
@@ -46,6 +47,7 @@ const Mission =(props)=>{
                     </div>
                 </div>
             </div>
+                <Video/>
                 <Footer/>
             </section>
 
