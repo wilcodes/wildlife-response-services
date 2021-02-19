@@ -41,7 +41,7 @@
     padding: 0.3em;
 }
 .FooterLinks:hover{
-    color: #fca26e;
+    color: #a0bcbf;
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .element{

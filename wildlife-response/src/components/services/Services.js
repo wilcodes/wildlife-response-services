@@ -14,7 +14,7 @@ const Services =()=> {
             <LogoNav/>
             <NavTwo/>
             <Subtitle titleName={"services"} />
-            <p className={classes.textInt}> We can help you with... </p>
+            <h2 className={classes.textInt}> Our experience and commitment are focused on... </h2>
             <div className="container">
                 <div className="row" >
                     <div className="col-sm"  style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
@@ -36,7 +36,7 @@ const Services =()=> {
                     <div className="col-sm" style={{textAlign:"center", backgroundColor:"#a0bcbf"}} >
 
                         <h2 className={classes.subDescription}>Consulting</h2>
-                       <p className={classes.information}> Skilled in management of operations involving multiple contractors for projects involving
+                       <p className={classes.information} style={{color:"#ebf1ff"}}> Skilled in management of operations involving multiple contractors for projects involving
                            federal, state, and local agencies.
                            </p>
                         <img  src={image3} className={classes.images} alt="Bird"/>

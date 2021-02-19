@@ -22,7 +22,6 @@ h4,h3{
   color: #1f4034;
   line-height: 1.1;
 }
-h2,
 h5{
   color:#64817d;
   line-height: 1.1;
@@ -30,4 +29,12 @@ h5{
 h6{
   color:#fca26e;
   line-height: 1.1;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #4e6471;
+
+  text-align: center;
+  text-shadow: 2px 2px #c3ced4;
 }

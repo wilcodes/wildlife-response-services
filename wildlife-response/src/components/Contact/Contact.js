@@ -4,7 +4,7 @@ import LogoNav from "../LogoNav/LogoNav";
 import dotImage from "../../images/dotsNew.png";
 import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Contact.module.css";
-import {IoIosPerson, IoIosMail, IoMdPaperPlane, IoMdHelpCircleOutline}  from "react-icons/io";
+import {IoIosPerson, IoIosMail, IoMdHelpCircleOutline}  from "react-icons/io";
 import Footer from "../Footer/Footer";
 import emailjs from "emailjs-com";
 const Contact =()=>{

@@ -12,37 +12,38 @@ const Mission =(props)=>{
     return(
         <>
 
-            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat-x"}}>
+            <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
                 <LogoNav/>
                 <NavTwo/>
             <Subtitle titleName={"mission"}  />
             <div className={classes.introductionContainer}>
-                <p className={classes.introductionText}> Located in the upper Texas Gulf Coast area, WRS personnel have been involved in wildlife rehabilitation and oiled wildlife response for over twenty years,
-                    and possess both state and federal permits, including permits to rehabilitate endangered species.
-                    WRS has led the environmental unit in large-scale emergency responses, and consults with industry and private entities regarding site specific contingency planning.</p>
+                <p className={classes.introductionText}> We know that an impact or potential impact to wildlife is the most visible aspect of an incident in the public eye.
+                    It is not something that any Responsible Party or Potential Responsible Party wants to have as a part of a response.
+                    However, the possibility is very real and you can be prepared by having a wildlife plan in place within your overall facility/company response plan.
+                    That response plan should include a twenty-four hour contact number for an oiled wildlife response team.</p>
             </div>
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm"  >
+                    <div className="col-sm"  style={{textAlign:"center"}}>
                         <CgWorkAlt className={classes.icons}  />
                         <h3 className={classes.subtitle}> Amazing training Skills</h3>
                         <p className={classes.information}> Conduct training workshops for responders, agency representatives, and industry personnel.</p>
                     </div>
-                    <div className="col-sm" >
+                    <div className="col-sm" style={{textAlign:"center"}}>
                         <CgProfile className={classes.icons}/>
                         <h3 className={classes.subtitle}> Experience in a great amount of spills</h3>
-                        <p className={classes.information}> Participate in spill drills, exercises and panel discussions.</p>
+                        <p className={classes.information}> Work with industry and agencies to develop facility wildlife response plans.</p>
                     </div>
-                    <div className="col-sm"  >
+                    <div className="col-sm" style={{textAlign:"center"}} >
                         <VscWarning className={classes.icons}/>
                             <h3 className={classes.subtitle}> Quickly and efficient emergency services </h3>
                         <p className={classes.information}> Emergency Response; providing a professional, permitted wildlife spill management team.
                         </p>
                     </div>
-                    <div className="col-sm" >
+                    <div className="col-sm" style={{textAlign:"center"}}>
                         <VscCalendar className={classes.icons}/>
-                        <h3 className={classes.subtitle}> Connections with the environmental community</h3>
-                        <p className={classes.information}> Consult with Environmental, Health and Safety personnel regarding potential wildlife issues on industrial facilities.
+                        <h3 className={classes.subtitle}> Anytime/ Anywhere</h3>
+                        <p className={classes.information}> Our Response plan include a twenty-four hour contact number for an oiled wildlife response team.
                         </p>
                     </div>
                 </div>

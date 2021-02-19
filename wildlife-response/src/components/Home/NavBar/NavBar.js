@@ -5,7 +5,7 @@ import logo from "../../../images/wil2.png";
 import Sidebar from "../../sidebar/sidebar";
 const NavBar = () =>{
     const NavLink =(Link);
-    const [windowWidth, setWindowWidth]= useState(window.innerWidth);
+    const [windowWidth, setWindowWidth]= useState(null);
     const handleResize =useCallback(()=>{
         setWindowWidth(window.innerWidth);
     },[setWindowWidth]);

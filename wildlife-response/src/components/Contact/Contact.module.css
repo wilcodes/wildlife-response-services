@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 .subtitle{
-    text-transform: uppercase;
     font-size: 1.5em;
-    font-weight: lighter;
     padding-top: 0.7em;
-    color: #c3ced4;
-    font-family: Viga;
-    text-align: center;
-    text-shadow: 1px 1px #1f4034;
+
 }
 .label{
 font-family: Lato;
@@ -77,6 +72,7 @@ font-family: Lato;
 
 }
 .icon{
+    color: #21283B;
     position: relative;
     top: 3px;
 }
