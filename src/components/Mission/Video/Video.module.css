@@ -1,20 +1,3 @@
 .video{
     margin: 2em auto;
 }
-@media only screen and (min-width: 350px) and (max-width: 700px){
-    .video{
-        width: 4em;
-
-    }
-}
-@media only screen and (min-width:700px) and (max-width: 1200px){
-    .video{
-        width: 8em;
-    }
-}
-@media only screen and (min-width: 1201px){
-    .video{
-        width: 7em;
-    }
-
-}
