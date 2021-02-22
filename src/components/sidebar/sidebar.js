@@ -5,7 +5,8 @@ import {IoIosMenu, IoMdClose} from "react-icons/io";
 import Backdrop from "../Backdrop/Backdrop";
 import image from "../../images/wil.png";
 const Sidebar=()=>{
-    let [toggleSidebar, setToggleSidebar]=useState("closed");
+
+    let [toggleSidebar, setToggleSidebar]= useState("closed");
     let attachedClasses=[classes.sidebarWrapper];
 
     const NavLink=(Link);
@@ -13,8 +14,12 @@ const Sidebar=()=>{
       setToggleSidebar("open");
     };
     const closeSidebar = ()=>{
-      setToggleSidebar("closing")
+      setToggleSidebar("closing");
+      setTimeout(function (){
+          setToggleSidebar("closed")
+      },500)
     };
+
     if ( toggleSidebar==="closed"){
         attachedClasses=[classes.sidebarWrapper, classes.Closed];
     }
@@ -28,7 +33,7 @@ const Sidebar=()=>{
         <>
             <div className={classes.navIcon}  >
                 <>
-                    <IoIosMenu  onClick={openSidebar} className={classes.Icon}/>
+                    <IoIosMenu  onClick={openSidebar}  className={classes.Icon}/>
                     <Backdrop show={toggleSidebar==="open" ? true: false } />
                     <div className={attachedClasses.join(' ')} >
 
@@ -39,6 +44,7 @@ const Sidebar=()=>{
                         <NavLink to='/mission' className={classes.itemSidebar}>Mission </NavLink>
                         <NavLink to='/about' className={classes.itemSidebar}>About </NavLink>
                         <NavLink to='/contact' className={classes.itemSidebar}>Contact</NavLink>
+                            <p> {toggleSidebar}</p>
                     </nav>
                     </div>
                 </>
