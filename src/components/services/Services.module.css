@@ -6,7 +6,7 @@
     font-size: 1.2em;
     font-family: Lato;
     font-weight: lighter;
-    color:#64817d;
+    color:#21283B;
     padding: 1em;
 
 
@@ -22,7 +22,8 @@
     text-shadow: 1px 1px #a0bcbf;
 }
 .textInt{
-    padding: 1.5em;
+    padding: 1.2em;
+    font-size: 1.3em;
 }
 .images:hover{
     opacity: 1;
@@ -47,13 +48,17 @@
     right: 92%;
     bottom: 5%;
 }
-.subDescriptionWrapperThree{
 
-}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .images{
         width: 180px;
 
+    }
+    .textInt{
+        font-size: 1.2em;
+    }
+    .subDescription{
+        font-size: 1.4em;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1020px){
@@ -62,5 +67,8 @@
     }
     .subDescriptionWrapperThree{
         background-color: #21283B;
+    }
+    .subDescription{
+        font-size: 1.5em;
     }
 }

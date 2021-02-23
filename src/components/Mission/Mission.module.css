@@ -36,3 +36,20 @@
     font-weight: lighter;
     padding-top: 0.7em;
 }
+.videoWrapper{
+    width: 50%;
+    margin: 2em auto;
+}
+@media only screen and (min-width: 350px) and (max-width: 700px){
+    .videoWrapper{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:700px) and (max-width: 1024px){
+.videoWrapper{
+    width: 70%;
+}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1025px) {
+
+}

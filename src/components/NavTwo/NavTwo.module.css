@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 .parent{
-    top: 20%;
+    top: 14%;
     left: 0;
     width: 100%;
     position: relative;
@@ -8,17 +8,17 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: row;
-    font-family: Viga;
-    font-size: 1.3rem;
-    box-shadow: 3px 3px 2px 2px #efefef;
+    font-family: Lato;
+    font-size: 1.5rem;
+    /*box-shadow: 3px 3px 2px 2px #efefef;*/
     z-index: 9999;
     padding: 0.5em;
-    /*background-color: #efefef;*/
+    background-color: #21283B;
 }
 .children{
     flex: 0 0 13%;
     text-decoration: none;
-    color: #03254c;
+    color: #ccc;
     text-align: center;
 
 
@@ -41,12 +41,12 @@
 @media only screen and (min-width: 350px) and (max-width: 700px){
 
     .parent{
-        font-size: 0.7em;
+        font-size: 1em;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1020px){
     .parent{
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 }
 @media only screen and (min-width: 1020px) {

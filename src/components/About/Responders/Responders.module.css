@@ -93,16 +93,11 @@ grid-column: 2/3;
 
     .description {
         border-radius: 10px;
-        background-color: #64817d;
-        font-family: Lato;
-        text-shadow: 1px 1px #b8b8b8;
         margin-left: 2em;
 
     }
 
     .positionTitle {
-        color: #fca26e;
-        font-family: Viga;
         padding: 0.5em 0;
         margin-left: 2em;
     }

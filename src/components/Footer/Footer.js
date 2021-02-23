@@ -24,12 +24,6 @@ const Footer= (props) =>{
                 </nav>
                 <div style={{paddingBottom:"1em"}}>
 
-            <IoLogoLinkedin className='icon-2' style={{
-                position:"relative",
-                top:"7px",
-                fontSize:"35px",
-                color:"#a0bcbf"
-            }}/>
                 </div>
             <p className={classes.globalElement}>©2007 - 2021 Wildlife Response Services, LLC  </p>
             <p className={classes.globalElement}>  P.O.Box 842

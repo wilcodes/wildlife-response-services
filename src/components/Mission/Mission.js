@@ -47,8 +47,11 @@ const Mission =(props)=>{
                         </p>
                     </div>
                 </div>
+                <div className={classes.videoWrapper}  >
+                    <Video/>
+                </div>
             </div>
-                <Video/>
+
                 <Footer/>
             </section>
 

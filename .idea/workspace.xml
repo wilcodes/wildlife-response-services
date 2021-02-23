@@ -20,9 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="459d56c6-b310-47f7-863d-ed2ebbf06f7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Mission/VideoWrapper/VideoWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Mission/VideoWrapper/VideoWrapper.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mission/Video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Video/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mission/Video/Video.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Video/Video.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +64,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1mfqsTjt3Uv623yjxO16sqE13pQ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -63,6 +78,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wildlife-response/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\wrca2\OneDrive\wildlife-response-services\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -150,7 +168,8 @@
       <workItem from="1613776840519" duration="780000" />
       <workItem from="1613778303730" duration="1095000" />
       <workItem from="1614024038030" duration="634000" />
-      <workItem from="1614032151983" duration="2223000" />
+      <workItem from="1614032151983" duration="6621000" />
+      <workItem from="1614055135789" duration="4299000" />
     </task>
     <servers />
   </component>

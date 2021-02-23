@@ -3,14 +3,14 @@
     font-size: 1.2em;
     font-family: Lato;
     font-weight: lighter;
-    color:#64817d;
-    text-align: center;
-    width: 65%;
+    color:#21283B;
+    width: 70%;
     margin: 0 auto;
 }
 
 .subdescription{
     padding: 1.5em;
+    font-size: 1.2em;
 }
 
 
@@ -21,14 +21,17 @@
         width: 85%;
 
     }
+    .subdescription{
+        padding: 1.5em;
+    }
 }
-@media only screen and (min-width:700px) and (max-width: 1020px){
+@media only screen and (min-width:700px) and (max-width: 1024px){
     .title{
-        font-size: 3.1em;
+        font-size: 2.8em;
         padding: 1em 0;
     }
 }
-@media only screen and (min-width: 1020px) and (max-width: 1025px) {
+@media only screen and (min-width: 1025px) and (max-width: 1025px) {
     .title {
         font-size: 4em;
         padding: 1em 0;

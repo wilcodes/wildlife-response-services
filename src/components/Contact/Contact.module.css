@@ -81,11 +81,15 @@ font-family: Lato;
         width: 10em;
         font-size: 0.7em;
     }
+    .form{
+        width: 90%;
+    }
+    .subtitle{
+        font-size: 1.2em;
+    }
 }
 @media only screen and (min-width:700px) and (max-width: 1020px){
-    .form{
 
-    }
     .button{
         width:15em;
         font-size: 0.9em;
