@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import {IoLogoLinkedin } from "react-icons/io";
 import {Link} from "gatsby";
 const Footer= (props) =>{
     const NavLink =(Link);
@@ -15,7 +14,7 @@ const Footer= (props) =>{
         </footer>
     } else {
         footer =
-            <footer className={classes.globalFooter}>
+            <footer className={classes.globalFooter} style={{marginTop:`${props.margin}`}} >
                 <nav className={classes.NavFooter}>
                     <NavLink to='/services'  className={classes.FooterLinks}>Services</NavLink>
                     <NavLink to='/mission'  className={classes.FooterLinks}>Mission</NavLink>

@@ -47,7 +47,10 @@ const checkValidation =useCallback( ()=>{
                 }, (error) => {
                     console.log(error.text);
                 });
-            window.location.reload();
+            setTimeout(()=>{
+              window.location.reload();
+            },500)
+
 
         };
     return(
@@ -101,7 +104,7 @@ const checkValidation =useCallback( ()=>{
 
                             {button}
                 </form>
-                <Footer/>
+                <Footer margin={"15em"} />
             </section>
 
         </>

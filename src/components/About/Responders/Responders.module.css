@@ -129,7 +129,7 @@ grid-column: 2/3;
         margin-left: 2em;
     }
 }
-@media only screen and (min-width:700px) and (max-width: 1020px){
+@media only screen and (min-width:700px) and (max-width: 1024px){
     .container{
         display: grid;
         position: relative;

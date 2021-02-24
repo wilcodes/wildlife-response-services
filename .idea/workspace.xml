@@ -20,24 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="459d56c6-b310-47f7-863d-ed2ebbf06f7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Mission/VideoWrapper/VideoWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Mission/VideoWrapper/VideoWrapper.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Brian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/michele.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/reponder/Responder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/responder/Responder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/reponder/responder.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/responder/responder.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogoNav/LogoNav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Video/Video.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Video/Video.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wildlife-response/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,14 +83,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\src\images" />
+      <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\src\images" />
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src\images" />
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src\components\Home" />
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src\components" />
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\wildlife-response\src\images" />
     </key>
   </component>
   <component name="RunManager">
