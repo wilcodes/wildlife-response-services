@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="459d56c6-b310-47f7-863d-ed2ebbf06f7e" name="Default Changelist" comment="" />
+    <list default="true" id="459d56c6-b310-47f7-863d-ed2ebbf06f7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Spinner/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Spinner/Spinner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,6 +161,7 @@
       <workItem from="1614024038030" duration="634000" />
       <workItem from="1614032151983" duration="6621000" />
       <workItem from="1614055135789" duration="4299000" />
+      <workItem from="1614468048490" duration="5822000" />
     </task>
     <servers />
   </component>

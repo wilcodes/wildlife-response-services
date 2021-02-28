@@ -7,11 +7,13 @@ import classes from "./Contact.module.css";
 import {IoIosPerson, IoIosMail, IoMdHelpCircleOutline}  from "react-icons/io";
 import Footer from "../Footer/Footer";
 import emailjs from "emailjs-com";
+import Modal from "../Contact/Modal/Modal";
 const Contact =()=>{
     const [isValidated,setValidation]=useState(false);
     const [contactName,setContactName]= useState('');
     const [contactEmail,setContactEmail]= useState('');
     const [contactMessage,setContactMessage]= useState('');
+    const [modal, setModal]= useState(" ");
 
 const checkValidation =useCallback( ()=>{
     if (contactName.length> 1 && contactEmail.length>1 && contactMessage.length>1){
@@ -41,15 +43,15 @@ const checkValidation =useCallback( ()=>{
 
         const sendEmail=(e)=>{
             e.preventDefault();
+            setModal("loading");
             emailjs.sendForm('service_c7mmf6g', 'template_gotx84l', e.target, 'user_SVVnZkO5DWGt5scPKPwAx')
                 .then((result) => {
                     console.log(result.text);
+                    setModal("open");
                 }, (error) => {
+                  setModal("openError");
                     console.log(error.text);
                 });
-            setTimeout(()=>{
-              window.location.reload();
-            },500)
 
 
         };
@@ -105,6 +107,7 @@ const checkValidation =useCallback( ()=>{
                             {button}
                 </form>
                 <Footer margin={"15em"} />
+                <Modal message={modal}/>
             </section>
 
         </>
