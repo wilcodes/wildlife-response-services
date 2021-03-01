@@ -40,9 +40,34 @@
     width: 50%;
     margin: 2em auto;
 }
+.videoTitle{
+    text-align: center;
+    margin-top: 2.3em;
+    font-size: 2em;
+    font-weight: lighter;
+    color: #21283b;
+
+}
+.VideoInformation{
+font-size: 1.5em;
+    font-family: Lato;
+    font-weight: lighter;
+    color:#64817d;
+    margin-bottom: 0;
+    margin-top: 0.8em;
+    text-align: center;
+
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .videoWrapper{
         width: 100%;
+    }
+    .VideoInformation{
+        font-size: 1.2em;
+    }
+    .videoTitle{
+        font-size: 1.5em;
+        margin-top: 1.4em;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1024px){

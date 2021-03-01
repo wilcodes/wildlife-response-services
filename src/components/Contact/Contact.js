@@ -4,22 +4,24 @@ import LogoNav from "../LogoNav/LogoNav";
 import dotImage from "../../images/dotsNew.png";
 import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Contact.module.css";
-import {IoIosPerson, IoIosMail, IoMdHelpCircleOutline}  from "react-icons/io";
+import {IoIosPerson, IoIosMail, IoMdHelpCircleOutline, IoMdPhonePortrait}  from "react-icons/io";
 import Footer from "../Footer/Footer";
 import emailjs from "emailjs-com";
 import Modal from "../Contact/Modal/Modal";
+import Description from "./Description/Description";
 const Contact =()=>{
     const [isValidated,setValidation]=useState(false);
     const [contactName,setContactName]= useState('');
     const [contactEmail,setContactEmail]= useState('');
     const [contactMessage,setContactMessage]= useState('');
+  const [contactPhone,setContactPhone]= useState('');
     const [modal, setModal]= useState(" ");
 
 const checkValidation =useCallback( ()=>{
-    if (contactName.length> 1 && contactEmail.length>1 && contactMessage.length>1){
+    if (contactName.length> 1 && contactEmail.length>1 && contactMessage.length>1 && contactPhone.length>=9){
         setValidation(true);
     }
-},[contactEmail,contactName,contactMessage])
+},[contactEmail,contactName,contactMessage, contactPhone])
     useEffect((()=>{
         checkValidation()
     }),[checkValidation])
@@ -30,14 +32,14 @@ const checkValidation =useCallback( ()=>{
                <button type="submit"
                       className={classes.button}
                       disabled={!isValidated}
-              > Click Here to Submit!</button>
+              > Send Your Message!</button>
        </>
         }else {
             button = <>
                 <button type="submit"
                         className={[classes.button,classes.disabled].join(' ')}
                         disabled={!isValidated} to={'/'}
-                > Click Here to Submit!</button>
+                > Send Your Message!</button>
             </>
         }
 
@@ -90,8 +92,18 @@ const checkValidation =useCallback( ()=>{
                                    onChange={event => setContactEmail(event.target.value)}
                                    required
                             />
+                  <label htmlFor={"email"} className={classes.label}>
+                    <IoMdPhonePortrait className={classes.icon}/> Phone Number
+                  </label>
+                  <input type="text"
+                         name="Phone"
+                         id={"Phone"}
+                         className={classes.input}
+                         placeholder={"Enter your Phone Number"}
+                         value={contactPhone}
+                         onChange={event => setContactPhone(event.target.value)}
 
-
+                  />
                             <label htmlFor={"message"} className={classes.label} > <IoMdHelpCircleOutline className={classes.icon}/> Let us Help You</label>
 
                                 <textarea type="text"
@@ -106,8 +118,10 @@ const checkValidation =useCallback( ()=>{
 
                             {button}
                 </form>
-                <Footer margin={"15em"} />
+
                 <Modal message={modal}/>
+                <Description/>
+              <Footer margin={"0em"} />
             </section>
 
         </>

@@ -20,7 +20,7 @@ font-family: Lato;
     width: 50%;
     justify-content: center;
     border-radius: 20px;
-    margin: 2em auto;
+    margin: 0 auto;
     padding: 1em 0;
 
 }
@@ -49,7 +49,7 @@ font-family: Lato;
     background-image: linear-gradient(45deg, #21283B 40%, #ebf1ff 60%);
     background-image: -webkit-linear-gradient(45deg, #64817d 0%, #a0bcbf 100%);
     transition: .4s;
-    width: 35%;
+    width: 50%;
     align-self: center;
     margin-top: 1em;
     font-family: Viga;

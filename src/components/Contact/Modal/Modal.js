@@ -4,7 +4,11 @@ import classes from "./Modal.module.css";
 import { TiThumbsDown, TiThumbsUp } from "react-icons/ti";
 import Spinner from "../Spinner/Spinner";
 const Modal = (props)=> {
+
   let modal = null;
+  const hideModal=()=>{
+    modal= null;
+  };
   if (props.message ==="open") {
   modal =  <div className={classes.Modal}>
     <p className={classes.subDescription}> Your Message has been sent without Problems </p>
@@ -30,9 +34,10 @@ const Modal = (props)=> {
   if (props.message ==="loading"){
     modal= <div className={classes.Modal}> <Spinner/> </div>
   }
+
    return(
      <>
-       < Backdrop show = { props.message==="open" || props.message ==="openError" ? true : false} />
+       < Backdrop show = { props.message==="open" || props.message ==="openError" ? true : false}/>
        {modal}
     </>)
 };

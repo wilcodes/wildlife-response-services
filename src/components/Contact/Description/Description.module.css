@@ -1,0 +1,47 @@
+.Container{
+        padding: 2em;
+        background-color: #F4F4F4;
+
+}
+.span{
+   text-align: center;
+
+}
+.subtitle{
+    text-align:center;
+    color: #21283b;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: lighter;
+    padding-top: 0.7em;
+}
+.list{
+    display: flex;
+    flex-flow: column wrap;
+}
+.listItem{
+    list-style: none;
+    font-size: 1.5em;
+    font-family: Lato;
+    font-weight: lighter;
+    color: #21283b;
+    text-justify: inter-word;
+    margin-bottom: 0;
+    margin-top: 0.8em;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 700px){
+    .subtitle{
+        font-size: 1.3em;
+    }
+    .listItem{
+        font-size: 1.1em;
+    }
+}
+@media only screen and (min-width:700px) and (max-width: 1020px){
+
+
+}
+@media only screen and (min-width: 1020px) and (max-width: 1025px) {
+
+}
