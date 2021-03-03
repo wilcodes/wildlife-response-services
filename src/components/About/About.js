@@ -12,7 +12,7 @@ return(
     <>
             <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
                     <LogoNav/>
-                    <NavTwo/>
+                    <NavTwo description={"about"} />
                     <Subtitle titleName={"About us"} />
                 <p className={classes.introductionParagraph}> Wildlife Response Services, LLC provides dedicated oiled wildlife response support for the Gulf of Mexico coast and inland gulf coast states.
                     We are based in the Houston/Galveston area, but our core network team consisting of trained responders, is capable of being dispatched at a moments notice to any incident involving wildlife throughout the United States.

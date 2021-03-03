@@ -14,7 +14,7 @@ const Mission =(props)=>{
 
             <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
                 <LogoNav/>
-                <NavTwo/>
+                <NavTwo description={"mission"}/>
             <Subtitle titleName={"mission"}  />
             <div className={classes.introductionContainer}>
                 <p className={classes.introductionText}> We know that an impact or potential impact to wildlife is the most visible aspect of an incident in the public eye.

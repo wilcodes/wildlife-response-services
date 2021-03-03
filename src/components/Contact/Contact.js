@@ -62,7 +62,7 @@ const checkValidation =useCallback( ()=>{
         <>
             <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
                 <LogoNav/>
-                <NavTwo/>
+                <NavTwo description={"contact"}/>
                 <Subtitle titleName={"Contact us"}/>
                 <form className={classes.form} onSubmit={sendEmail} >
                     <h2 className={classes.subtitle} >We are ready to help you! </h2>

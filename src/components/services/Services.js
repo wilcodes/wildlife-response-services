@@ -12,7 +12,7 @@ const Services =()=> {
     return(
         <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
             <LogoNav/>
-            <NavTwo/>
+            <NavTwo description={"services"}/>
             <Subtitle titleName={"services"} />
             <h2 className={classes.textInt}> Our experience and commitment are focused on... </h2>
             <div className="container">

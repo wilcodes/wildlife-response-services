@@ -6,9 +6,6 @@ import Spinner from "../Spinner/Spinner";
 const Modal = (props)=> {
 
   let modal = null;
-  const hideModal=()=>{
-    modal= null;
-  };
   if (props.message ==="open") {
   modal =  <div className={classes.Modal}>
     <p className={classes.subDescription}> Your Message has been sent without Problems </p>

@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="459d56c6-b310-47f7-863d-ed2ebbf06f7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Description/Description.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Description/Description.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/DirectorSquare/DirectorSquare.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTwo/NavTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +164,9 @@
       <workItem from="1614055135789" duration="4299000" />
       <workItem from="1614468048490" duration="6072000" />
       <workItem from="1614482314883" duration="4682000" />
-      <workItem from="1614619545994" duration="5333000" />
+      <workItem from="1614619545994" duration="6331000" />
+      <workItem from="1614654668212" duration="3000" />
+      <workItem from="1614793121620" duration="680000" />
     </task>
     <servers />
   </component>
