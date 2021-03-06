@@ -8,6 +8,7 @@
     font-weight: lighter;
     color:#21283B;
     padding: 1em;
+    letter-spacing: 1px;
 
 
 }
@@ -48,7 +49,18 @@
     right: 92%;
     bottom: 5%;
 }
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    .images{
+        width: 180px;
 
+    }
+    .textInt{
+        font-size: 1.2em;
+    }
+    .subDescription{
+        font-size: 1.4em;
+    }
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .images{
         width: 180px;

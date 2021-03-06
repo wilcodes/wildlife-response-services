@@ -49,7 +49,7 @@ const Mission =(props)=>{
                 </div>
                 <div className={classes.introductionContainer}>
                     <h3 className={classes.videoTitle} > Do you want to learn more ? </h3>
-                    <p className={classes.VideoInformation} > Watch the following video where our Managing Director describe the approach of our team during an emergency </p>
+                    <p className={classes.VideoInformation} > Watch the following video where our Managing Director describes the approach of our team during an emergency. </p>
                 </div>
                 <div className={classes.videoWrapper}  >
                     <Video/>

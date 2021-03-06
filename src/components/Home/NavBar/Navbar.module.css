@@ -30,6 +30,16 @@
     transition: all 1s ease;
     text-decoration: underline;
 }
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    .image{
+        padding-top: 1.2em;
+        width: 9em;
+        margin-bottom: 30%;
+    }
+    .children{
+        display: none;
+    }
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .image{
         padding-top: 1.5em;

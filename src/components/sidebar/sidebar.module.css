@@ -122,6 +122,24 @@ position: relative;
         transform: translateX(0);
     }
 }
+
+@media only screen and (min-width: 300px){
+    .navIcon{
+        margin-left: 60%;
+    }
+    .items-sidebar{
+        font-size: 1em;
+        margin-left:8% ;
+    }
+    .sidebarWrapper{
+        width: 50%;
+    }.logo{
+         width: 4em;
+
+
+     }
+
+}
 @media only screen and (min-width: 350px){
     .navIcon{
         margin-left: 55%;

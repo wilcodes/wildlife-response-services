@@ -3,6 +3,7 @@ import classes from "./Responders.module.css";
 import responderOnePicture from "../../../images/responderOne.png";
 import responderThreePicture from "../../../images/michele.png";
 import responderTwoPicture from "../../../images/Brian.png";
+import responderFourPicture from "../../../images/patty.png";
 import Responder from '../responder/Responder';
 const Responders =(props)=>{
 const responderOne ={
@@ -46,10 +47,26 @@ const responderTwo ={
 
     };
 
+    const responderFour ={
+        id:'responderFour',
+        firstClass:classes.lineSeparator,
+        secondClass: classes.containerRight,
+        thirdClass: classes.pictureTwo,
+        image: {source: responderFourPicture, name: "Patty", style: classes.image},
+        fourClass: classes.ContainerInformationTwo,
+        fifthClass: classes.descriptionTwo,
+        description: "As the newest member, Patty Simmons joined WRS in 2020 and has worked several spills.  " +
+          "She brings with her over 15 years of wildlife rehabilitation experience and is both state and federally permitted.  " +
+          "She also is a primary member with Bay Area Wildlife where she rehabilitates wildlife and is involved in various public wildlife education programs",
+        title:{name:"Patty Simmons / Responder", style: classes.positionTitleTwo},
+
+    };
+
 const responders =[];
 responders.push(responderOne);
 responders.push(responderTwo);
 responders.push(responderThree);
+responders.push(responderFour);
 
     return(
         <>

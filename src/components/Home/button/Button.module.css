@@ -31,7 +31,15 @@
     top:6px;
     color:#21283B;
 }
-
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    .Button, .Button2{
+        font-size:0.8em;
+        margin-left: 1.8em;
+    }
+    .Icon{
+        top: 3px;
+    }
+}
 @media only screen and (min-width: 350px) and (max-width: 700px){
     .Button, .Button2{
         font-size:0.9em;

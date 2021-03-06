@@ -6,6 +6,7 @@
     color:#21283B;
     width: 70%;
     margin: 0 auto;
+    letter-spacing: 1px;
 }
 
 .subdescription{
@@ -14,7 +15,7 @@
 }
 
 
-@media only screen and (min-width: 350px) and (max-width: 700px){
+@media only screen and (min-width: 300px) and (max-width: 700px){
     .introductionParagraph{
         font-size:1em ;
         padding: 0.5em;
