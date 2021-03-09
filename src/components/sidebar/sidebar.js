@@ -3,7 +3,7 @@ import {Link} from "gatsby";
 import classes from "./sidebar.module.css";
 import {IoIosMenu, IoMdClose} from "react-icons/io";
 import Backdrop from "../Backdrop/Backdrop";
-import image from "../../images/wil.png";
+import image from "../../images/white-logo.png";
 const Sidebar=()=>{
 
     let [toggleSidebar, setToggleSidebar]= useState("closed");
