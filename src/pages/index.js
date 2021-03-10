@@ -5,7 +5,7 @@ import "../bootstrap-grid.min.css";
 import SEO from "../components/seo";
 const IndexPage = () => (
         <Layout>
-          <SEO title={"Wildlife Response Services"}/>
+          <SEO title={"Home"}/>
          <Home/>
         </Layout>
 

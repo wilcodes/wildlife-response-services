@@ -1,0 +1,27 @@
+
+.images{
+ width: 380px;
+ padding: 1em;
+ border-radius: 15px;
+}
+@media only screen and (min-width: 300px) and (max-width: 350px){
+ .images{
+  width: 230px;
+
+ }
+
+
+}
+@media only screen and (min-width: 350px) and (max-width: 700px){
+ .images{
+  width: 270px;
+
+ }
+
+}
+@media only screen and (min-width:700px) and (max-width: 1020px){
+ .images{
+  width:370px;
+ }
+
+}

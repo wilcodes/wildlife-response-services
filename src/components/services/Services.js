@@ -8,13 +8,16 @@ import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import Footer from "../Footer/Footer";
 import LogoNav from "../LogoNav/LogoNav";
+import ImageSlider from "./Carousel/ImageSlider"
 const Services =()=> {
     return(
         <section className={classes.section} style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
             <LogoNav/>
             <NavTwo description={"services"}/>
             <Subtitle titleName={"services"} />
-            <h2 className={classes.textInt}> Our experience and commitment are focused on... </h2>
+          <h2 className={classes.textInt}> Our experience and commitment are focused on... </h2>
+            <ImageSlider/>
+
             <div className="container">
                 <div className="row" >
                     <div className="col-sm"  style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
