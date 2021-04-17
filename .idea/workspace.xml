@@ -23,19 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13d0ae9-2eff-43c5-a471-9231aa8a959d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/services/Carousel/ImageSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/Carousel/ImageSlider.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/caruselOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/caruselThree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/caruselTwo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Carousel/ImageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Carousel/ImageSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Adult Brown Pelican[834].jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Adult Brown Pelican[834].jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/RhondaMurgatroyd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/RhondaMurgatroyd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/aboutBird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/animal1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/animal2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/animal3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/caruselOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/caruselThree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/caruselTwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/dots-wildlifeWebsite-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/header-gulf-birds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/home-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/patty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pelican.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pelican.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/responderOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/responderOne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/truck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/truck.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +90,34 @@
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\src\images" />
     </key>
   </component>
+  <component name="RunManager" selected="npm.develop">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.develop" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,7 +129,13 @@
       <workItem from="1615240910674" duration="1540000" />
       <workItem from="1615250872727" duration="1860000" />
       <workItem from="1615267396720" duration="4389000" />
-      <workItem from="1615399387863" duration="4139000" />
+      <workItem from="1615399387863" duration="4426000" />
+      <workItem from="1615832115725" duration="915000" />
+      <workItem from="1616006275081" duration="1289000" />
+      <workItem from="1616515925443" duration="660000" />
+      <workItem from="1617897996382" duration="1026000" />
+      <workItem from="1618616164697" duration="1273000" />
+      <workItem from="1618625085773" duration="2078000" />
     </task>
     <servers />
   </component>
@@ -110,25 +155,41 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="702" key="GridCell.Tab.0.bottom" timestamp="1615230450504">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1618625809460">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1899" height="702" key="GridCell.Tab.0.bottom/-1920.26.1536.838/0.32.1920.1048@0.32.1920.1048" timestamp="1615230450504" />
-    <state width="1899" height="702" key="GridCell.Tab.0.center" timestamp="1615230450504">
+    <state width="746" height="213" key="GridCell.Tab.0.bottom/0.32.1536.832@0.32.1536.832" timestamp="1617899801975" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618625809460" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1618625809460">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1899" height="702" key="GridCell.Tab.0.center/-1920.26.1536.838/0.32.1920.1048@0.32.1920.1048" timestamp="1615230450504" />
-    <state width="1899" height="702" key="GridCell.Tab.0.left" timestamp="1615230450504">
+    <state width="746" height="213" key="GridCell.Tab.0.center/0.32.1536.832@0.32.1536.832" timestamp="1617899801975" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618625809460" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1618625809460">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1899" height="702" key="GridCell.Tab.0.left/-1920.26.1536.838/0.32.1920.1048@0.32.1920.1048" timestamp="1615230450504" />
-    <state width="1899" height="702" key="GridCell.Tab.0.right" timestamp="1615230450504">
+    <state width="746" height="213" key="GridCell.Tab.0.left/0.32.1536.832@0.32.1536.832" timestamp="1617899801975" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618625809460" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1618625809460">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1899" height="702" key="GridCell.Tab.0.right/-1920.26.1536.838/0.32.1920.1048@0.32.1920.1048" timestamp="1615230450504" />
+    <state width="746" height="213" key="GridCell.Tab.0.right/0.32.1536.832@0.32.1536.832" timestamp="1617899801975" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618625809460" />
     <state x="0" y="32" width="1201" height="764" maximized="true" key="dock-window-1" timestamp="1615399788401">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state x="0" y="32" width="1201" height="764" maximized="true" key="dock-window-1/0.32.1920.1048/-1920.30.1536.834@-1920.30.1536.834" timestamp="1615271789128" />
+    <state x="667" y="155" width="585" height="801" key="find.popup" timestamp="1618626048636">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="667" y="155" width="585" height="801" key="find.popup/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618626048636" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1618626325109">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.32.1920.1048/-1920.30.1536.834@0.32.1920.1048" timestamp="1618626325109" />
   </component>
 </project>

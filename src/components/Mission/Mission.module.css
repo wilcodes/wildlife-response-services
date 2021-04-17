@@ -4,8 +4,9 @@
     font-size: 1.2em;
     font-family: Lato;
     font-weight: lighter;
-    color:#64817d;
+    color:#21283B;
     letter-spacing: 1px;
+    text-align: center;
 }
 .introductionContainer{
     margin: 0 auto;
@@ -17,7 +18,7 @@
     font-size: 1.2em;
     font-family: Lato;
     font-weight: lighter;
-    color:#64817d;
+    color:#21283B;
     text-justify: inter-word;
     margin-bottom: 0;
     margin-top: 0.8em;
@@ -79,10 +80,10 @@
         width: 100%;
     }
     .VideoInformation{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .videoTitle{
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-top: 1.4em;
 
     }

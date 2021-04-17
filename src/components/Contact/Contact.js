@@ -67,7 +67,7 @@ const checkValidation =useCallback( ()=>{
                 <form className={classes.form} onSubmit={sendEmail} >
                     <h2 className={classes.subtitle} >We are ready to help you! </h2>
                             <label htmlFor={"name"} className={classes.label}>
-                              <IoIosPerson className={classes.icon}/>  Your Name
+                              <IoIosPerson className={classes.icon}/>  Your Name / Company Name
                             </label>
                             <input
                                 type="text"

@@ -3,7 +3,7 @@ import classes from "./Responders.module.css";
 import responderOnePicture from "../../../images/responderOne.png";
 import responderThreePicture from "../../../images/michele.png";
 import responderTwoPicture from "../../../images/Brian.png";
-import responderFourPicture from "../../../images/patty.png";
+import responderFourPicture from "../../../images/patty.jpg";
 import Responder from '../responder/Responder';
 const Responders =(props)=>{
 const responderOne ={
