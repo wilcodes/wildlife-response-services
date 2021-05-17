@@ -10,12 +10,6 @@ import image6 from "../../../images/caruselThree.jpg";
 import classes from "./ImageSlider.module.css";
 
 const ImageSlider =()=> {
-  // const images = [{ src:image1, name: "truck"},
-  //     { src:image2, name: "pelican"},
-  //     { src:image3, name: "bird"},
-  //     { src:image4, name: "pelican In the beach " },
-  //     { src:image5, name: "Pelican Flying" },
-  //     { src:image6, name: "truck for spills" }];
 
  return(
   <div style={{ textAlign: "center", marginBottom:"2em"}} >

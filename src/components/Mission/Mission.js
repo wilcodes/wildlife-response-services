@@ -7,7 +7,6 @@ import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
-import Video from "./Video/Video";
 const Mission =(props)=>{
     return(
         <>
@@ -47,13 +46,7 @@ const Mission =(props)=>{
                         </p>
                     </div>
                 </div>
-                <div className={classes.introductionContainer}>
-                    <h3 className={classes.videoTitle} > Do you want to learn more ? </h3>
-                    <p className={classes.VideoInformation} > Watch the following video where our Managing Director describes the approach of our team during an emergency. </p>
-                </div>
-                <div className={classes.videoWrapper}  >
-                    <Video/>
-                </div>
+
             </div>
 
                 <Footer/>

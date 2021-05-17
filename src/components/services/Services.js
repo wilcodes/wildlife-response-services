@@ -3,7 +3,7 @@ import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Services.module.css";
 import image1 from "../../images/Adult Brown Pelican[834].jpg";
 import image2 from "../../images/pelican.jpg";
-import image3 from "../../images/truck.jpg";
+import image3 from "../../images/responderOne.png";
 import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import Footer from "../Footer/Footer";
@@ -36,7 +36,7 @@ const Services =()=> {
                             multiple incidents concurrently.</p>
                         <img  src={image2} className={classes.images} alt="Bird"/>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}} >
+                    <div className="col-sm" style={{textAlign:"center", backgroundColor:"#c3ced4"}} >
 
                         <h2 className={classes.subDescription}>Consulting</h2>
                        <p className={classes.information} > Skilled in management of operations involving multiple contractors for projects involving
