@@ -34,6 +34,7 @@ margin-left: 2em;
     color: #e6f0ef;
     width: 80%;
     letter-spacing: 1px;
+    font-size: 1.2em;
 
 }
 /*Second Round of container*/
@@ -78,6 +79,7 @@ margin-left: 2em;
     height: 100%;
     width: 80%;
     letter-spacing: 1px;
+    font-size: 1.2em;
 
 }
 
@@ -89,7 +91,7 @@ margin-left: 2em;
     border-radius: 1px;
     align-items: center;
 }
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
     .container {
         display: grid;
         position: relative;
@@ -100,6 +102,7 @@ margin-left: 2em;
     .description {
         border-radius: 10px;
         margin-left: 2em;
+        font-size:1em ;
 
     }
 
@@ -130,6 +133,7 @@ margin-left: 2em;
     }
     .descriptionTwo{
         margin-left: 2em;
+        font-size:1em ;
     }
     .positionTitleTwo{
         padding: 0.5em 0;
@@ -137,7 +141,7 @@ margin-left: 2em;
         font-size: 1.3em;
     }
 }
-@media only screen and (min-width:700px) and (max-width: 1024px){
+@media only screen and (min-width:1000px) and (max-width: 1035px){
     .container{
         display: grid;
         position: relative;
@@ -155,6 +159,7 @@ margin-left: 2em;
         grid-row: 1/2;
         margin-left: 2em;
         width: 80%;
+
     }
 
     .ContainerInformationTwo {
@@ -178,6 +183,29 @@ margin-left: 2em;
     .title{
         font-size: 4em;
         padding: 1em 0;
+    }
+
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+
+    .description {
+        border-radius: 10px;
+        margin-left: 2em;
+        font-size:1.2em ;
+
+    }
+    .descriptionTwo{
+        border-radius: 10px;
+        margin-left: 2em;
+        font-size:1.2em ;
+
+    }
+
+    .picture{
+        height: 400px;
+    }
+    .pictureTwo{
+        height: 400px;
     }
 
 }

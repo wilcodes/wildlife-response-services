@@ -1,51 +1,28 @@
 .title{
     font-family: Lato;
-    margin-top: 14%;
     color: #ebf1ff;
     text-shadow: 2px 2px #21283B;
-    font-size: 4.2em;
+    font-size: 1.8em;
     margin-left: 0.5em;
     font-weight: lighter;
     text-transform: uppercase;
     padding-bottom: 0.5em;
     overflow:hidden;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-
-}
-.title:first-of-type {
-    animation: showup 3.5s ease-in;
+    position: relative;
+    margin-top: 3.3em;
 }
 
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-}
-@media only screen and (min-width: 300px) and (max-width: 700px){
+@media only screen and (min-width: 700px) and (max-width: 1025px){
     .title{
-        font-size:1.6em;
+        font-size:2.5em ;
+        margin-top: 1.8em;
     }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 700px){
+
+@media only screen and (min-width: 1025px) {
     .title{
-        font-size:1.8em ;
-        padding: 0.5em;
-
+        font-size:4em ;
+        margin-top: 3em;
     }
-}
-@media only screen and (min-width:700px) and (max-width: 1020px){
-.title{
-    font-size: 3.1em;
-    padding: 1em 0;
-}
-}
-@media only screen and (min-width: 1020px) and (max-width: 1025px){
-.title{
-    font-size: 4em;
-    padding: 1em 0;
-}
-
 }
