@@ -24,17 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e13d0ae9-2eff-43c5-a471-9231aa8a959d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/Responders/Responders.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Title/Title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mission/Mission.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Modal/Modal.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <recent name="C:\Users\wrca2\OneDrive\wildlife-response-services\src\components\services\Carousel" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.develop">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -104,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.develop" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.develop" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +131,9 @@
       <workItem from="1626959314881" duration="966000" />
       <workItem from="1626970067361" duration="840000" />
       <workItem from="1627923463756" duration="1196000" />
-      <workItem from="1628177457626" duration="3436000" />
+      <workItem from="1628177457626" duration="4529000" />
+      <workItem from="1628290748348" duration="633000" />
+      <workItem from="1628527885119" duration="2082000" />
     </task>
     <servers />
   </component>

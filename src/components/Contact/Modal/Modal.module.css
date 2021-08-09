@@ -1,11 +1,11 @@
 .Modal {
+    font-family: Lato;
     position: fixed;
     z-index: 500;
     background-color: #21283b;
     width:80%;
-    border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
-    padding: 1em;
+    padding: 1.5em;
     top: 40%;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
@@ -28,6 +28,26 @@
 .icons{
     position:relative;
     top:5px;
+}
+.modalLink{
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2em;
+
+}
+.modalLink:hover{
+    color: #a0bcbf;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 @media only screen and (min-width: 350px) and (max-width: 700px){
   .subDescription{
