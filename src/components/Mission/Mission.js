@@ -33,18 +33,21 @@ const Mission =(props)=>{
                         <h3 className={classes.subtitle}> Experience in a great amount of spills</h3>
                         <p className={classes.information}> Work with industry and agencies to develop facility wildlife response plans.</p>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}} >
-                        <VscWarning className={classes.icons}/>
+                    <div className="row"  style={{textAlign:"center"}}>
+                        <div className="col-sm" style={{textAlign:"center"}} >
+                            <VscWarning className={classes.icons}/>
                             <h3 className={classes.subtitle}> Quickly and efficient emergency services </h3>
-                        <p className={classes.information}> Emergency Response; providing a professional, permitted wildlife spill management team.
-                        </p>
+                            <p className={classes.information}> Emergency Response; providing a professional, permitted wildlife spill management team.
+                            </p>
+                        </div>
+                        <div className="col-sm" style={{textAlign:"center"}}>
+                            <VscCalendar className={classes.icons}/>
+                            <h3 className={classes.subtitle}> Anytime/ Anywhere</h3>
+                            <p className={classes.information}> Our Response plan include a twenty-four hour contact number for an oiled wildlife response team.
+                            </p>
+                        </div>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center"}}>
-                        <VscCalendar className={classes.icons}/>
-                        <h3 className={classes.subtitle}> Anytime/ Anywhere</h3>
-                        <p className={classes.information}> Our Response plan include a twenty-four hour contact number for an oiled wildlife response team.
-                        </p>
-                    </div>
+
                 </div>
 
             </div>
