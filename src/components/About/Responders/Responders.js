@@ -4,6 +4,7 @@ import responderZeroPicture from "../../../images/RhondaMurgatroyd.jpg";
 import responderOnePicture from "../../../images/responderOneJoyce.png";
 import responderFourPicture from "../../../images/patty.jpg";
 import responderFivePicture from "../../../images/JessicaMurgatroyd.jpg";
+import responderSixthPicture from "../../../images/Darst Mike.jpg"
 import Responder from '../responder/Responder';
 const Responders =(props)=>{
 
@@ -68,11 +69,29 @@ const responderOne ={
         title:{name:"Jessica Murgatroyd / Responder", style:classes.positionTitle}
     }
 
+    const responderSix = {
+        id:'responderSixth',
+        firstClass:classes.lineSeparator,
+        secondClass: classes.containerRight,
+        thirdClass: classes.pictureTwo,
+        image: {source: responderSixthPicture, name: "Michael Darst ", style: classes.image},
+        fourClass: classes.ContainerInformationTwo,
+        fifthClass: classes.descriptionTwo,
+        description: "Michael Darst has worked in the field of Wildlife Rehabilitation for over ten years.  " +
+          "He has filled various roles within the rehab facility including those related to animal nutrition, handling, " +
+          "and construction of appropriate caging and holding areas.  Mike has worked large spill incidents with Wildlife Response Services, " +
+          "LLC as a member of the wildlife rehabilitation staff for the past two years where he oversaw the handling and care of impacted wildlife. " +
+          " His strong skills in design and construction of an efficient rehabilitation center make him a valuable asset to the WRS Team.",
+        title:{name:"Michael Darst / Responder", style: classes.positionTitleTwo},
+
+    }
+
 const responders =[];
     responders.push(responderZero);
     responders.push(responderOne);
     responders.push(responderFour);
     responders.push(responderFive);
+    responders.push(responderSix);
 
     return(
         <>
