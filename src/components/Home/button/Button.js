@@ -7,7 +7,7 @@ const Button=()=>{
     return(
         <>
             <NavLink  className={classes.Button} to='/services'>  <IoMdArrowRoundForward className={classes.Icon} /> Learn More </NavLink>
-        <NavLink  className={classes.Button2} to='/contact'>  <IoMdArrowRoundForward className={classes.Icon}/> I Really need Help  </NavLink>
+        <NavLink  className={classes.Button2} to='/contact'>  <IoMdArrowRoundForward className={classes.Icon}/> Click here to contact us  </NavLink>
         </>
     )
 

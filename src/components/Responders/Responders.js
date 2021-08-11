@@ -1,11 +1,17 @@
 import React from 'react';
 import classes from "./Responders.module.css";
-import responderZeroPicture from "../../../images/RhondaMurgatroyd.jpg";
-import responderOnePicture from "../../../images/responderOneJoyce.png";
-import responderFourPicture from "../../../images/patty.jpg";
-import responderFivePicture from "../../../images/JessicaMurgatroyd.jpg";
-import responderSixthPicture from "../../../images/Darst Mike.jpg"
-import Responder from '../responder/Responder';
+import responderZeroPicture from "../../images/RhondaMurgatroyd.jpg";
+import responderOnePicture from "../../images/ResponderOneJoyce.png";
+import responderFourPicture from "../../images/patty.jpg";
+import responderFivePicture from "../../images/JessicaMurgatroyd.jpg";
+import responderSixthPicture from "../../images/Darst Mike.jpg"
+import Responder from './responder/Responder';
+import LogoNav from "../LogoNav/LogoNav";
+import Footer from "../Footer/Footer";
+import NavTwo from "../NavTwo/NavTwo";
+import Subtitle from "../Subtitle/Subtitle"
+import dots from "../../images/dotsNew.png"
+import dotImage from "../../images/dotsNew.png"
 const Responders =(props)=>{
 
 
@@ -31,8 +37,10 @@ const responderOne ={
     image: {source: responderOnePicture, name: "Panda", style: classes.image},
     fourClass: classes.information,
     fifthClass: classes.description,
-    description: "Joyce Riesinger received her Bachelors of Science in Marine Biology in 1992 from the University of West Florida. She has worked within the field of biology for over 25 years, and within the realm of spill response for over 10 years.  \n" +
-        "Joyce has experience with both, large and small scale spill response and has worked with WRS for more than 2 years in various capacities as related to spill response and wildlife capture and rehabilitation.  She has served in positions within the ICP, Wildlife Rehab Center and in field positions as the Wildlife Response Manager, Wildlife Rehabilitation Center Manager and Wildlife Recovery Group Supervisor.  \n",
+    description: "Joyce Riesinger received her Bachelor of Science degree in Marine Biology in 1992 from the University of West Florida. " +
+      "She has worked in this field for over 25 years, and within the realm of spill response for over 10 years. Joyce has experience with both large and small scale spill response and has worked with WRS for over 2 years in various capacities." +
+      " She possess a high level of training and experience, making her capable of filling  positions within the ICP as well as the Wildlife Rehabilitation Center.  " +
+      "Given her background in wildlife biology, she may also be tasked to fill the role of field reconnaissance and recovery supervisor. ",
     title:{name:"Joyce Riesinger / Responder", style:classes.positionTitle}
 
 };
@@ -61,11 +69,10 @@ const responderOne ={
         image: {source: responderFivePicture, name: "Jessica", style: classes.image},
         fourClass: classes.information,
         fifthClass: classes.description,
-        description: "Jessica is a third-year veterinary student at Louisiana State University School of Veterinary Medicine. " +
-          "She hopes to focus on exotic and small animal medicine and work with native wildlife in the future. Jessica has a Bachelor of Science in Natural Resources Management from Texas Tech University. "+
-          "She has worked with Wildlife Response Services since 2018 and has experience with avian species, mammals, and reptiles and amphibians.\n" +
-          "\n" +
-          " ",
+        description: "Jessica is a third-year veterinary student at Louisiana State University School of Veterinary Medicine. Her focus is on exotic, " +
+          "small animal, and native wildlife medicine. Jessica has a Bachelor of Science in Natural Resources Management from Texas Tech University. " +
+          "She has worked with Wildlife Response Services since 2018 and has experience with avian species, mammals, reptiles, and amphibians."
+          ,
         title:{name:"Jessica Murgatroyd / Responder", style:classes.positionTitle}
     }
 
@@ -94,13 +101,18 @@ const responders =[];
     responders.push(responderSix);
 
     return(
-        <>
+        <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
+            <LogoNav/>
+            <NavTwo description={"responders"}/>
+            <Subtitle titleName={"Core Response Team Members"}/>
+
                 {responders.map( responder => (
                    <Responder
                        key={responder.id}
                        data={responder} />
                 ))}
-        </>
+            <Footer/>
+        </section>
     )
 };
 export default Responders;

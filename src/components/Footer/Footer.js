@@ -6,10 +6,10 @@ const Footer= (props) =>{
     let footer = null;
     if(props.id==="home"){
         footer = <footer className={classes.footer}>
-            <p className={classes.element}>©2007 - 2021 Wildlife Response Services, LLC  </p>
+            <p className={classes.element}>©2021 Wildlife Response Services, LLC  </p>
             <p className={classes.element}>  P.O.Box 842
-                Seabrook, TX. 77586
-                Phone:713-705-5897</p>
+                • Seabrook, TX 77586 •
+                Phone: 713-705-5897</p>
 
         </footer>
     } else {
@@ -24,9 +24,9 @@ const Footer= (props) =>{
                 <div style={{paddingBottom:"1em"}}>
 
                 </div>
-            <p className={classes.globalElement}>©2007 - 2021 Wildlife Response Services, LLC  </p>
+            <p className={classes.globalElement}>©2021 Wildlife Response Services, LLC  </p>
             <p className={classes.globalElement}>  P.O.Box 842
-                Seabrook, TX. 77586
+                • Seabrook, TX 77586 •
                 Phone: 713-705-5897
             </p>
             </footer>
