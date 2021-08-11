@@ -2,7 +2,7 @@ import React from 'react';
 
 const Responder = (props) => (
     <>
-        <div className={props.data.firstClass} />
+
 <h2 className={props.data.title.style} >{props.data.title.name} </h2>
     <div className={props.data.secondClass} >
     <div className={props.data.thirdClass} >
@@ -14,6 +14,7 @@ const Responder = (props) => (
         </p>
     </div >
     </div>
+        <div className={props.data.firstClass} />
         </>
 
 );

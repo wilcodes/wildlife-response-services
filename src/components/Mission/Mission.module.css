@@ -87,6 +87,12 @@
         margin-top: 1.4em;
 
     }
+    .introductionContainer{
+        margin: 1.2em auto;
+        width: 90%;
+
+
+    }
 }
 @media only screen and (min-width:700px) and (max-width: 1024px){
 .videoWrapper{

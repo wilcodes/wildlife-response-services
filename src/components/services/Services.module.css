@@ -26,16 +26,13 @@
     padding: 1.2em;
     font-size: 1.3em;
 }
-.images:hover{
-    opacity: 1;
-    /*transform: scale(1.05);*/
-}
+
 .images {
     width: 300px;
     height: 200px;
     border-radius: 10px;
-    /*transform: scale(1.15);*/
-    /*transition: transform 0.7s, opacity0.5s;*/
+    margin-bottom: 1em;
+
 }
 .footerImage{
     width: 100px;

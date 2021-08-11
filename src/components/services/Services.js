@@ -2,7 +2,7 @@ import React from "react";
 import Subtitle from "../Subtitle/Subtitle";
 import classes from "./Services.module.css";
 import image1 from "../../images/Adult Brown Pelican[834].jpg";
-import image2 from "../../images/pelican.jpg";
+import image2 from "../../images/training-min.png";
 import image3 from "../../images/responderOne.png";
 import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";

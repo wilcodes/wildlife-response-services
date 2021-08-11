@@ -26,7 +26,7 @@ font-family: Lato;
 }
 .input[type=text], .input[type=email], .select, .textArea{
     font-family: Lato;
-    font-size: 1em;
+    font-size: 1.5em;
     border:none;
     border-bottom: 2px solid rgba(0,0,0,0.4);
     padding: 1em 0;
@@ -37,6 +37,7 @@ font-family: Lato;
 }
 .input:focus, .select:focus, .textArea{
     border-bottom: 2px solid rgba(0,0,0,1);
+    font-size: 1.5em;
 }
 
 .button{

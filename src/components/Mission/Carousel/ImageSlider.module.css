@@ -1,8 +1,11 @@
 
 .images{
- width: 480px;
- padding: 1em;
- border-radius: 15px;
+ width: 450px;
+ margin: 1em;
+ -webkit-box-shadow: 0px 0px 5px 5px #000000; /* WebKit */
+ -moz-box-shadow: 0px 0px 5px 5px #000000; /* Firefox */
+ box-shadow: 0px 0px 5px 5px #000000;
+ border-radius:15px;
 }
 @media only screen and (min-width: 300px) and (max-width: 350px){
  .images{

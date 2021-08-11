@@ -10,7 +10,6 @@ import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
 import NavTwo from "../NavTwo/NavTwo";
 import Subtitle from "../Subtitle/Subtitle"
-import dots from "../../images/dotsNew.png"
 import dotImage from "../../images/dotsNew.png"
 const Responders =(props)=>{
 
@@ -18,15 +17,15 @@ const Responders =(props)=>{
     const responderZero ={
         id:'responderZero',
         firstClass:classes.lineSeparator,
-        secondClass: classes.containerRight,
-        thirdClass: classes.pictureTwo,
+        secondClass: classes.container,
+        thirdClass: classes.picture,
         image: {source: responderZeroPicture, name: "Rhonda", style: classes.image},
-        fourClass: classes.ContainerInformationTwo,
-        fifthClass: classes.descriptionTwo,
+        fourClass: classes.information,
+        fifthClass: [classes.description],
         description: "Rhonda Murgatroyd is the owner and managing director of Wildlife Response Services, LLC located in the Houston/Galveston area. She has been involved in wildlife rehabilitation and oiled wildlife response, " +
           "including over seventy spills of varying impact, since 2001.  Ms. Murgatroyd has filled various roles in several large-scale emergency responses, including the position of Wildlife Branch Director, for the Deepwater Horizon Incident from April 2010 through August 2011.  " +
           "In addition, she is a principal wildlife response trainer, and consultant for industry and private entities regarding site specific contingency planning.",
-        title:{name:"Rhonda Murgatroyd / Managing Director", style: classes.positionTitleTwo},
+        title:{name:"Rhonda Murgatroyd / Managing Director", style: classes.positionTitle},
 
     };
 const responderOne ={
@@ -49,15 +48,15 @@ const responderOne ={
     const responderFour ={
         id:'responderFour',
         firstClass:classes.lineSeparator,
-        secondClass: classes.containerRight,
-        thirdClass: classes.pictureTwo,
+        secondClass: classes.container,
+        thirdClass: classes.picture,
         image: {source: responderFourPicture, name: "Patty", style: classes.image},
-        fourClass: classes.ContainerInformationTwo,
-        fifthClass: classes.descriptionTwo,
+        fourClass: classes.information,
+        fifthClass: classes.description,
         description: "As the newest member, Patty Simmons joined WRS in 2020 and has worked several spills.  " +
           "She brings with her over 15 years of wildlife rehabilitation experience and is both state and federally permitted.  " +
           "She also is a primary member with Bay Area Wildlife where she rehabilitates wildlife and is involved in various public wildlife education programs",
-        title:{name:"Patty Simmons / Responder", style: classes.positionTitleTwo},
+        title:{name:"Patty Simmons / Responder", style: classes.positionTitle},
 
     };
 
@@ -79,17 +78,17 @@ const responderOne ={
     const responderSix = {
         id:'responderSixth',
         firstClass:classes.lineSeparator,
-        secondClass: classes.containerRight,
-        thirdClass: classes.pictureTwo,
+        secondClass: classes.container,
+        thirdClass: classes.picture,
         image: {source: responderSixthPicture, name: "Michael Darst ", style: classes.image},
-        fourClass: classes.ContainerInformationTwo,
-        fifthClass: classes.descriptionTwo,
+        fourClass: classes.information,
+        fifthClass: classes.description,
         description: "Michael Darst has worked in the field of Wildlife Rehabilitation for over ten years.  " +
           "He has filled various roles within the rehab facility including those related to animal nutrition, handling, " +
           "and construction of appropriate caging and holding areas.  Mike has worked large spill incidents with Wildlife Response Services, " +
           "LLC as a member of the wildlife rehabilitation staff for the past two years where he oversaw the handling and care of impacted wildlife. " +
           " His strong skills in design and construction of an efficient rehabilitation center make him a valuable asset to the WRS Team.",
-        title:{name:"Michael Darst / Responder", style: classes.positionTitleTwo},
+        title:{name:"Michael Darst / Responder", style: classes.positionTitle},
 
     }
 

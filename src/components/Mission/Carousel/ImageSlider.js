@@ -7,6 +7,7 @@ import image3 from "../../../images/background.jpg";
 import image4 from "../../../images/caruselOne.jpg";
 import image5 from "../../../images/caruselTwo.jpg";
 import image6 from "../../../images/caruselThree.jpg";
+import image7 from "../../../images/training-min.png";
 import classes from "./ImageSlider.module.css";
 
 const ImageSlider =()=> {
@@ -20,11 +21,11 @@ const ImageSlider =()=> {
       infinite
     >
       <img src={image1} alt={"truck"} className={classes.images}/>
-      <img src={image2} alt={"truck"} className={classes.images}/>
-      <img src={image3} alt={"truck"} className={classes.images}/>
-      <img src={image4} alt={"truck"} className={classes.images}/>
-      <img src={image5} alt={"truck"} className={classes.images}/>
-      <img src={image6} alt={"truck"} className={classes.images}/>
+      <img src={image2} alt={"pelican"} className={classes.images}/>
+      <img src={image3} alt={"pelicanTwo"} className={classes.images}/>
+      <img src={image4} alt={"team"} className={classes.images}/>
+      <img src={image5} alt={"Bird"} className={classes.images}/>
+      <img src={image6} alt={"team"} className={classes.images}/>
 
     </Carousel>
   </div>)

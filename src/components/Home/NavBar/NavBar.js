@@ -11,7 +11,7 @@ const NavBar = () =>{
         <>
             <div className="container-fluid">
                 <div className="row">
-            <div className="col-6">
+            <div className="col-5">
                 <NavLink to='/' > <img src={logo} alt="wildlife-logo" className={classes.image}/> </NavLink>
             </div>
                 <div className="col-6">
@@ -22,6 +22,7 @@ const NavBar = () =>{
                         <NavLink to='/services' className={classes.children} >Services</NavLink>
                         <NavLink to='/mission' className={classes.children}>Mission</NavLink>
                         <NavLink to='/about' className={classes.children}>About</NavLink>
+                        <NavLink to='/responders' className={classes.children}>Responders</NavLink>
                         <NavLink to='/contact' className={classes.children}>Contact us</NavLink>
                     </nav>
                     </div>

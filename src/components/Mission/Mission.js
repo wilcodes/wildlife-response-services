@@ -5,7 +5,7 @@ import dotImage from "../../images/dotsNew.png";
 import NavTwo from "../NavTwo/NavTwo";
 import LogoNav from "../LogoNav/LogoNav";
 import Footer from "../Footer/Footer";
-import ImageSlider from "../services/Carousel/ImageSlider"
+import ImageSlider from "./Carousel/ImageSlider"
 const Mission =(props)=>{
     return(
         <>
