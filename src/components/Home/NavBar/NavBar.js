@@ -11,7 +11,7 @@ const NavBar = () =>{
         <>
             <div className="container-fluid">
                 <div className="row">
-            <div className="col-5">
+            <div className="col-6">
                 <NavLink to='/' > <img src={logo} alt="wildlife-logo" className={classes.image}/> </NavLink>
             </div>
                 <div className="col-6">

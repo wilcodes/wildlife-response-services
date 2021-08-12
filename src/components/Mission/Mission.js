@@ -14,6 +14,7 @@ const Mission =(props)=>{
                 <LogoNav/>
                 <NavTwo description={"mission"}/>
             <Subtitle titleName={"mission"}  />
+              <ImageSlider/>
             <div className={classes.introductionContainer}>
 
                 <p className={classes.introductionText}> The primary goal of WRS is to conduct wildlife response activities in a manner that produces the best achievable outcome for impacted wildlife, ranging from training of personnel, to the capture, care, cleaning, and ultimately release of healthy individuals back into their natural environment.  This goal is achieved by keeping the health and safety of both the responders and animals involved as the most important aspect of all actions taken.
@@ -21,7 +22,7 @@ const Mission =(props)=>{
                 </p>
             </div>
 
-              <ImageSlider/>
+
 
                 <Footer/>
             </section>

@@ -1,6 +1,6 @@
 .Button{
     text-decoration: none;
-    font-family: Lato;
+    font-family: Lato sans-serif;
     font-size: 0.8em;
     color:#21283B;
     border-radius: 25px;
@@ -27,14 +27,14 @@
 }
 .Icon{
     position:relative;
-    top:6px;
+    top:3px;
     color:#21283B;
 }
 
 
 @media only screen and (min-width:700px) {
 .Icon{
-    top: 4px;
+    top: 5px;
 }
     .Button{
         font-size: 1.8em;
@@ -43,3 +43,16 @@
         font-size: 1.8em;
     }
 }
+
+@media only screen and (min-width:1025px) {
+    .Icon{
+        top: 6px;
+    }
+    .Button{
+        font-size: 1.5em;
+    }
+    .Button2{
+        font-size: 1.5em;
+    }
+}
+

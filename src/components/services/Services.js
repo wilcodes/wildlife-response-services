@@ -19,7 +19,7 @@ const Services =()=> {
 
             <div className="container">
                 <div className="row" >
-                    <div className="col-sm"  style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
+                    <div className="col-md"  style={{textAlign:"center", backgroundColor:"#c3ced4"}}>
 
                         <h2 className={classes.subDescription}> Response</h2>
                        <p className={classes.information}> With our experienced core team members and extensive network of contract personnel, we possess the capability to respond to multiple incidents concurrently.
@@ -28,7 +28,7 @@ const Services =()=> {
                        </p>
                         <img  src={image1} className={classes.images} alt="Turtle" />
                     </div>
-                    <div className="col-sm" style={{textAlign:"center",  backgroundColor:"#a0bcbf" }}>
+                    <div className="col-md" style={{textAlign:"center",  backgroundColor:"#a0bcbf" }}>
 
                         <h2 className={classes.subDescription}> training</h2>
                         <p className={classes.information}> To assist industry partners, wildlife trustees and other interested parties in a clearer understanding of the components of wildlife response, training workshops may be requested of our team.
@@ -36,7 +36,8 @@ const Services =()=> {
                         </p>
                         <img  src={image2} className={classes.images} alt="Bird"/>
                     </div>
-                    <div className="col-sm" style={{textAlign:"center", backgroundColor:"#c3ced4"}} >
+
+                    <div className="col-lg" style={{textAlign:"center", backgroundColor:"#c3ced4"}} >
 
                         <h2 className={classes.subDescription}>Consulting</h2>
                        <p className={classes.information} > Our team is available to assist in writing facility response plans for our clients and testing those plans within the structure of both company led and regulator initiated exercises.
