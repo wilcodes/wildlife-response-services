@@ -1,24 +1,23 @@
 .Button{
     text-decoration: none;
     font-family: Lato;
-    font-size: 25px;
-    margin-left: 2em;
+    font-size: 0.8em;
     color:#21283B;
     border-radius: 25px;
     border: 2px solid #1f4034;
-    padding: 10px;
+    padding: 7px;
     background-color: #c3ced4;
+    margin: 1em;
 
 }
 .Button2{
     text-decoration: none;
     font-family: Lato;
-    font-size: 25px;
-    margin-left: 2em;
+    font-size: 0.8em;
     color:#efefef;
     border-radius: 25px;
     border: 2px solid #c4bfbf;
-    padding: 10px;
+    padding: 7px;
     transition: ease 0.5s;
 
 }
@@ -31,26 +30,16 @@
     top:6px;
     color:#21283B;
 }
-@media only screen and (min-width: 300px) and (max-width: 350px){
-    .Button, .Button2{
-        font-size:0.8em;
-        margin-left: 1.8em;
-    }
-    .Icon{
-        top: 3px;
-    }
-}
-@media only screen and (min-width: 350px) and (max-width: 700px){
-    .Button, .Button2{
-        font-size:0.9em;
-        margin-left: 1.8em;
-    }
-    .Icon{
-        top: 3px;
-    }
-}
-@media only screen and (min-width:700px) and (max-width: 1200px){
+
+
+@media only screen and (min-width:700px) {
 .Icon{
     top: 4px;
 }
+    .Button{
+        font-size: 1.8em;
+    }
+    .Button2{
+        font-size: 1.8em;
+    }
 }

@@ -77,7 +77,6 @@ const responderOne ={
 
     const responderSix = {
         id:'responderSixth',
-        firstClass:classes.lineSeparator,
         secondClass: classes.container,
         thirdClass: classes.picture,
         image: {source: responderSixthPicture, name: "Michael Darst ", style: classes.image},

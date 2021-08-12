@@ -3,6 +3,16 @@
     position: relative;
     min-height: 100vh;
 }
+
+.container{
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 @media only screen and (min-width: 300px) and (max-width: 350px){
     .header{
 
@@ -27,6 +37,11 @@
         background-size: cover;
         background-position: center;
         padding: 25px 0;
+    }
+    .container{
+
+        top: 60%;
+
     }
 }
 

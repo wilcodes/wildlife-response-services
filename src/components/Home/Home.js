@@ -12,10 +12,10 @@ const Home =()=>{
                        rgba(0, 0, 0, 0.5)), url(${image})`}}>
                 <Navbar />
                 <Title />
+              <div className={classes.container}>
                 <Button/>
-
+              </div>
                 <Footer id={"home"}/>
-
             </header>
                 </>
     )
