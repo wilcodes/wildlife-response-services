@@ -43,7 +43,7 @@ const Sidebar=()=>{
                         <NavLink to='/services' className={classes.itemSidebar} >Services</NavLink>
                         <NavLink to='/mission' className={classes.itemSidebar}>Mission </NavLink>
                         <NavLink to='/about' className={classes.itemSidebar}>About </NavLink>
-                            <NavLink to='/responders' className={classes.itemSidebar}>Responders </NavLink>
+                            <NavLink to='/team' className={classes.itemSidebar}>Responders </NavLink>
                         <NavLink to='/contact' className={classes.itemSidebar}>Contact</NavLink>
                             <p> {toggleSidebar}</p>
                     </nav>

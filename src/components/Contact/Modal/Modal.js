@@ -4,7 +4,6 @@ import classes from "./Modal.module.css";
 import { TiThumbsDown, TiThumbsUp } from "react-icons/ti";
 import Spinner from "../Spinner/Spinner";
 import {Link} from "gatsby";
-import logo from "../../../images/white-logo.png"
 const Modal = (props)=> {
   const Navlink=(Link);
   let modal = null;

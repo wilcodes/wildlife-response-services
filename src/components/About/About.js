@@ -5,7 +5,6 @@ import dotImage from "../../images/dotsNew.png";
 import Subtitle from "../Subtitle/Subtitle";
 
 import classes from "./About.module.css";
-import Responders from "../Responders/Responders";
 import Footer from "../Footer/Footer";
 import Video from "./Video/Video"
 const About =()=>{

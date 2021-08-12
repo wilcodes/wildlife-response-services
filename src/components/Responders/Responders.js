@@ -101,7 +101,7 @@ const responders =[];
     return(
         <section style={{backgroundImage:`url(${dotImage})`, backgroundRepeat:"repeat"}}>
             <LogoNav/>
-            <NavTwo description={"responders"}/>
+            <NavTwo description={"team"}/>
             <Subtitle titleName={"Core Response Team Members"}/>
 
                 {responders.map( responder => (
