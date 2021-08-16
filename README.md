@@ -1,3 +1,3 @@
 ## 🧐 What's inside?
-# follow the link and see my work in progress -> https://objective-williams-60ac2c.netlify.app
+# https://app.netlify.com/sites/blissful-agnesi-5ab222/overview
 
