@@ -17,7 +17,7 @@ const Mission =(props)=>{
               <ImageSlider/>
             <div className={classes.introductionContainer}>
 
-                <p className={classes.introductionText}> The primary goal of WRS is to conduct wildlife response activities in a manner that produces the best achievable outcome for impacted wildlife, ranging from training of personnel, to the capture, care, cleaning, and ultimately release of healthy individuals back into their natural environment.  This goal is achieved by keeping the health and safety of both the responders and animals involved as the most important aspect of all actions taken.
+                <p className={classes.introductionText}> The primary goal of WRS is to conduct Wildlife Response Services, LLC activities in a manner that produces the best achievable outcome for impacted wildlife, ranging from training of personnel, to the capture, care, cleaning, and ultimately release of healthy individuals back into their natural environment.  This goal is achieved by keeping the health and safety of both the responders and animals involved as the most important aspect of all actions taken.
                     This best achievable outcome will be accomplished by working collaboratively with our industry partners and wildlife trustees in determining the most beneficial response approach to take for the protection of both the animals and the habitat in which they live.
                 </p>
             </div>

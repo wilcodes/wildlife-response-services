@@ -40,7 +40,7 @@ const responderOne ={
       "She has worked in this field for over 25 years, and within the realm of spill response for over 10 years. Joyce has experience with both large and small scale spill response and has worked with WRS for over 2 years in various capacities." +
       " She possess a high level of training and experience, making her capable of filling  positions within the ICP as well as the Wildlife Rehabilitation Center.  " +
       "Given her background in wildlife biology, she may also be tasked to fill the role of field reconnaissance and recovery supervisor. ",
-    title:{name:"Joyce Riesinger / Responder", style:classes.positionTitle}
+    title:{name:"Joyce Riesinger / Wildlife Biologist", style:classes.positionTitle}
 
 };
 
@@ -72,7 +72,7 @@ const responderOne ={
           "small animal, and native wildlife medicine. Jessica has a Bachelor of Science in Natural Resources Management from Texas Tech University. " +
           "She has worked with Wildlife Response Services since 2018 and has experience with avian species, mammals, reptiles, and amphibians."
           ,
-        title:{name:"Jessica Murgatroyd / Responder", style:classes.positionTitle}
+        title:{name:"Jessica Murgatroyd / Wildlife Biologist ", style:classes.positionTitle}
     }
 
     const responderSix = {

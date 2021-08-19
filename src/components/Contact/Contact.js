@@ -66,7 +66,9 @@ const checkValidation =useCallback( ()=>{
                 <NavTwo description={"contact"}/>
                 <Subtitle titleName={"Contact us"}/>
                 <form className={classes.form} onSubmit={sendEmail} >
-                    <h2 className={classes.subtitle} >We are ready to help you! </h2>
+                    <h2 className={classes.subtitle} >
+                      If this is an oil spill emergency or spill exercise call AND text 713-705-5897!
+                    </h2>
                             <label htmlFor={"name"} className={classes.label}>
                               <IoIosPerson className={classes.icon}/>  Your Name / Company Name
                             </label>

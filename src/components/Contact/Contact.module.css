@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Viga');
 .subtitle{
     font-size: 1.5em;
-    padding-top: 0.7em;
+    margin: 0.5em;
 
 }
 .label{
 font-family: Lato;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #1f4034;
     font-weight: lighter;
-    padding: 1em 0;
-
+    padding: 1.5em 0;
 
 }
 
@@ -88,7 +87,7 @@ font-family: Lato;
         width: 90%;
     }
     .subtitle{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 @media only screen and (min-width:700px) and (max-width: 1020px){
@@ -96,6 +95,9 @@ font-family: Lato;
     .button{
         width:15em;
         font-size: 0.9em;
+    }
+    .subtitle{
+        font-size: 1em;
     }
 }
 @media only screen and (min-width: 1020px) and (max-width: 1025px) {
