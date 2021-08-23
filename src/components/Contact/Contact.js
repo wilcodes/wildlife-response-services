@@ -44,10 +44,11 @@ const checkValidation =useCallback( ()=>{
         }
 
         const sendEmail=(e)=>{
+          // emailjs.sendForm('service_h4t15am', 'template_jlim11g', e.target, 'user_2dwzNQZysDgEvnryVKJoK'
+          // ).
             e.preventDefault();
             setModal("loading");
-            emailjs.sendForm('service_h4t15am', 'template_jlim11g', e.target, 'user_2dwzNQZysDgEvnryVKJoK'
-              )
+          emailjs.sendForm('service_h4t15am', 'template_jlim11g', e.target, 'user_2dwzNQZysDgEvnryVKJoK')
                 .then((result) => {
                     console.log(result.text);
                     setModal("open");
@@ -107,7 +108,7 @@ const checkValidation =useCallback( ()=>{
                          onChange={event => setContactPhone(event.target.value)}
 
                   />
-                            <label htmlFor={"message"} className={classes.label} > <IoMdHelpCircleOutline className={classes.icon}/> Tell us how we can assit you</label>
+                            <label htmlFor={"message"} className={classes.label} > <IoMdHelpCircleOutline className={classes.icon}/> Tell us how we can assist you</label>
 
                                 <textarea type="text"
                                           name="message"
