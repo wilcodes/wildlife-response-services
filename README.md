@@ -1,5 +1,6 @@
 # 🧐 What's inside?
 ## In this repository I got to work with Wildlife Response Services to rebuilt their Website.
+## Wildlife Response Services is a company that offers support to a huge variety of wildlife species when they are in need of special care when they have been affected by oil spills in their natural habitat. 
 
 ## For this Project I have used:
 - [React](https://reactjs.org/) - JS library
